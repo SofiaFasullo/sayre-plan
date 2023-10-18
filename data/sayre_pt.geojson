@@ -1,0 +1,18 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+            "name": "Sayre High School"
+        },
+        "geometry": {
+          "coordinates": [
+            -75.23857490338267,
+            39.95802943488684
+          ],
+          "type": "Point"
+        }
+      }
+    ]
+  }
