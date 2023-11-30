@@ -1,0 +1,90 @@
+body {
+    background-color: #f5ede1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text{
+    font-family: 'Poppins';
+}
+
+#title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#smaller-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    height: 40px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif; /* can't find 11 backwards*/
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: extra-condensed;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+#smaller-title-container:hover {
+    letter-spacing: 1rem;
+}
+
+#sayre {
+    background-color: #C63B34;
+}
+
+#high {
+    background-color: black;
+}
+
+#school {
+    background-color: #F8B413;
+}
+
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C63B34;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    height: 40px;
+    line-height: 0px;
+}
+
+.header-text {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-text:hover {
+    color: #F8B413;
+    text-decoration: none;
+}
+
+#info {
+    height: 50vh;
+}
+
+#map-area {
+    height: 100vh;
+    text-align: left;
+}
+
+#map { 
+    height: 100vh;
+    width: 100%;
+}
+
