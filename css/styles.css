@@ -1,5 +1,5 @@
 body {
-    background-color: #f5ede1;
+    background-color: #ffffff;
 }
 
 a {
@@ -10,67 +10,95 @@ a {
     font-family: 'Poppins';
 }
 
+#top-header-container {
+    height: 40px;
+    background-color: #EFCE33;
+}
+
+#home {
+    text-align: right;
+    color: #000;
+    margin-right: 5px;
+}
+
+#banner-image {
+    height: 100vh;
+    width: 100%;
+    object-fit: fill;
+}
+
+#over-photo-container {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 #title-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 100vh;
 }
 
 #smaller-title-container {
+    padding-left: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.title {
-    height: 40px;
-    line-height: 40px;
-    font-family: Arial, Helvetica, sans-serif; /* can't find 11 backwards*/
-    font-size: 40px;
-    font-weight: bold;
-    font-stretch: extra-condensed;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 5px;
-    border-radius: 50px;
-}
-
-#smaller-title-container:hover {
-    letter-spacing: 1rem;
+    color: #ffffff;
 }
 
 #sayre {
-    background-color: #C63B34;
+    font-size: 100px;
+    margin-bottom: 0%;
 }
 
-#high {
-    background-color: black;
+#resource-hub {
+    margin-top: 0%;
+    font-size: 40px;
 }
 
-#school {
-    background-color: #F8B413;
+#header-and-question-container {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#header-question {
+    color: #fff;
+    height: 30px;
+    text-align: center;
 }
 
 #header-container {
     display: flex;
-    justify-content: space-between;
-    background-color: #C63B34;
-    align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    justify-content: space-around;
     margin-top: 10px;
     height: 40px;
     line-height: 0px;
+    align-items: center;
 }
 
 .header-text {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
+     font-family: 'Poppins';   /* can't find TT backwards*/
+    height: 30px;
+    line-height: 30px;
+    width: 160px;
+    border: solid 1px;
+    border-color:#fff;
+    font-size: 20px;
+    text-align: center;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px; */
+    border-radius: 50px;
 }
 
 .header-text:hover {
-    color: #F8B413;
+    color: #EFCE33;
+    border-color: #EFCE33;
     text-decoration: none;
 }
 
@@ -78,13 +106,11 @@ a {
     height: 50vh;
 }
 
-/* #map-area {
-    height: 100vh;
-    text-align: left;
+#funding-cal {
+    border:solid 1px;
+    border-color: #777777;
+    width: 800;
+    height: 600;
+    /* frameborder: 0;
+    /* scrolling: no; */ /*this was included in the google code but does not exist? */
 }
-
-#map { 
-    height: 100vh;
-    width: 100%;
-} */
-
