@@ -2,7 +2,10 @@
 potential sayre high community connection documentation website!
 
 to do:
-* get sayre high school point tooltip to still show up
-* get sayre high school polygon
-* get image
-* get map to slide down 
+* copy Mimi's structure
+    * landing page: Sayre Resource Hub and menu
+    * student page
+    * admin page
+    * guest page
+* copy Mimi's page designs
+* get story map slide vibe

@@ -10,60 +10,69 @@ a {
     font-family: 'Poppins';
 }
 
-#title-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#top-header-container {
+    height: 40px;
+    background-color: #EFCE33;
+}
+
+#home {
+    text-align: right;
+    color: #000;
+    margin-right: 5px;
 }
 
 #banner-image {
-    height: 150px;
+    height: 100vh;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
+}
+
+#over-photo-container {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#title-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 #smaller-title-container {
-    position: absolute;
+    padding-left: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    color: #ffffff;
 }
 
-.title {
-    height: 40px;
-    line-height: 40px;
-    font-family: 'Poppins';   /* can't find 11 backwards*/
+#sayre {
+    font-size: 100px;
+    margin-bottom: 0%;
+}
+
+#resource-hub {
+    margin-top: 0%;
     font-size: 40px;
-    font-weight: bold;
-    font-stretch: extra-condensed;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 5px;
-    border-radius: 50px;
 }
 
-#smaller-title-container:hover {
-    letter-spacing: 1rem;
+#header-and-question-container {
+    width: 100%;
+    margin-bottom: 10px;
 }
 
-/* #sayre {
-    background-color: #C63B34;
+#header-question {
+    color: #fff;
+    height: 30px;
+    text-align: center;
 }
-
-#high {
-    background-color: black;
-}
-
-#school {
-    background-color: #F8B413;
-} */
 
 #header-container {
     display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
+    justify-content: space-around;
     margin-top: 10px;
     height: 40px;
     line-height: 0px;
@@ -71,14 +80,14 @@ a {
 }
 
 .header-text {
-    color: #DF0D15;
+    color: #fff;
     text-decoration: none;
      font-family: 'Poppins';   /* can't find TT backwards*/
     height: 30px;
     line-height: 30px;
     width: 160px;
-    border: solid 3px;
-    border-color:#DF0D15;
+    border: solid 1px;
+    border-color:#fff;
     font-size: 20px;
     text-align: center;
     /* padding-left: 10px;
@@ -88,11 +97,14 @@ a {
 }
 
 .header-text:hover {
-    color: #004A98;
-    border-color: #004A98;
+    color: #EFCE33;
+    border-color: #EFCE33;
     text-decoration: none;
 }
 
+#info {
+    height: 50vh;
+}
 
 #funding-cal {
     border:solid 1px;
@@ -102,4 +114,3 @@ a {
     /* frameborder: 0;
     /* scrolling: no; */ /*this was included in the google code but does not exist? */
 }
-
