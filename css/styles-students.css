@@ -37,6 +37,7 @@ a {
 }
 
 #title-container {
+    background-color: #FA5300;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -85,8 +86,8 @@ a {
      font-family: 'Poppins';   /* can't find TT backwards*/
     height: 30px;
     line-height: 30px;
-    width: 160px;
-    border: solid 1px;
+    width: 200px;
+    border: solid 2px;
     border-color:#fff;
     font-size: 20px;
     text-align: center;
