@@ -1,0 +1,258 @@
+body {
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text{
+    font-family: 'Poppins';
+}
+
+#top-header-container {
+    height: 40px;
+    background-color: #EFCE33;
+}
+
+#home {
+    text-align: right;
+    color: #000;
+    margin-right: 5px;
+}
+
+#banner-image {
+    height: 100vh;
+    width: 100%;
+    object-fit: fill;
+}
+
+#over-photo-container {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#title-container {
+    background-color: #FA5300;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#smaller-title-container {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+#sayre {
+    font-size: 100px;
+    margin-bottom: 0%;
+}
+
+#resource-hub {
+    margin-top: 0%;
+    font-size: 40px;
+}
+
+#header-and-question-container {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#header-question {
+    color: #fff;
+    height: 30px;
+    text-align: center;
+}
+
+#header-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    height: 40px;
+    line-height: 0px;
+    align-items: center;
+}
+
+.header-text {
+    color: #fff;
+    text-decoration: none;
+     font-family: 'Poppins';   /* can't find TT backwards*/
+    height: 30px;
+    line-height: 30px;
+    width: 200px;
+    border: solid 2px;
+    border-color:#fff;
+    font-size: 20px;
+    text-align: center;
+    /* padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px; */
+    border-radius: 50px;
+}
+
+.header-text:hover {
+    color: #EFCE33;
+    border-color: #EFCE33;
+    text-decoration: none;
+}
+
+#info {
+    height: 50vh;
+}
+
+/* Admin page calendar*/
+
+#funding-cal {
+    border:solid 1px;
+    border-color: #777777;
+    width: 800;
+    height: 600;
+    /* frameborder: 0;
+    /* scrolling: no; */ /*this was included in the google code but does not exist? */
+}
+
+/* Landing page boxes */
+
+#general-body-container {
+    display: flex;
+    justify-content: center;
+}
+
+#boxes-container {
+    height: 90vh;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box-text {
+    margin: 0%;
+}
+
+.box-quarter {
+    height: 90vh;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.box {
+    border-radius: 10px;
+    margin: 5px
+}
+
+.box-text {
+    font-size: medium;
+    padding: 8px;
+}
+
+#box-1 {
+    height: 90%;
+    background-color: #EFCE33;
+    color: black;
+}
+
+#box-1-text-1 {
+    margin-top: 20%;
+    text-align: center;
+}
+
+#box-1-text-2 {
+    font-size: small;
+}
+
+.mascot {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 1%;
+    border: solid 2px #EFCE33;
+}
+
+#mascot-above-box {
+    margin-left: 5.8%;
+}
+
+.mascot-image {
+    height: 50px;
+}
+
+#outside-box-text {
+    padding-left: 23%;
+    position: absolute;
+    font-size: medium;
+    margin-bottom: 0%;
+    margin-top: 5%;    
+}
+
+.box-2-7 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;  
+}
+
+#box-2{
+    background-color: #FA5300;
+    color: #fff;
+}
+
+.box-3-4 {
+    background-color: #E8E8E1;
+    color: black;
+}
+
+.box-2-5 {
+    height: 40%
+}
+
+#box-5 {
+    background-color: #3275C4;
+    color: #fff;
+}
+
+#box-6 {
+    height: 20%;
+    background-color: #E61E26;
+    color: #fff;
+}
+
+#box-7 {
+    height: 60%;
+    background-color: #000;
+    color: #fff;
+}
+
+#box-2:hover{
+    background-color: #a7a097;
+}
+
+#box-3:hover{
+    background-color: #a7a097;
+}
+
+#box-4:hover{
+    background-color: #a7a097;
+}
+
+#box-5:hover{
+    background-color: #a7a097;
+}
+
+#box-6:hover{
+    background-color: #a7a097;
+}
+
+#box-7:hover{
+    background-color: #a7a097;
+}
