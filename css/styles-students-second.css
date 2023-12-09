@@ -37,7 +37,6 @@ a {
 }
 
 #title-container {
-    background-color: #FA5300;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -86,8 +85,8 @@ a {
      font-family: 'Poppins';   /* can't find TT backwards*/
     height: 30px;
     line-height: 30px;
-    width: 200px;
-    border: solid 2px;
+    width: 160px;
+    border: solid 1px;
     border-color:#fff;
     font-size: 20px;
     text-align: center;
@@ -107,18 +106,8 @@ a {
     height: 50vh;
 }
 
-/* Admin page calendar*/
 
-#funding-cal {
-    border:solid 1px;
-    border-color: #777777;
-    width: 800;
-    height: 600;
-    /* frameborder: 0;
-    /* scrolling: no; */ /*this was included in the google code but does not exist? */
-}
-
-/* Landing page boxes */
+/* Student page boxes */
 
 #general-body-container {
     display: flex;
@@ -149,7 +138,10 @@ a {
 
 .box {
     border-radius: 10px;
-    margin: 5px
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
 
 .box-text {
@@ -157,31 +149,18 @@ a {
     padding: 8px;
 }
 
-.box-1 {
-    height: 90%;
-    background-color: #EFCE33;
-    color: black;
-}
-
-#box-1-text-1 {
-    margin-top: 20%;
-    text-align: center;
-}
-
-#box-1-text-2 {
-    font-size: small;
-}
-
 .mascot {
     position: absolute;
     background-color: #fff;
     border-radius: 100%;
     padding: 1%;
-    border: solid 2px #EFCE33;
+    border: solid 2px #FA5300;
 }
 
 #mascot-above-box {
     margin-left: 5.8%;
+    display: flex;
+    align-self: flex-end;
 }
 
 .mascot-image {
@@ -196,48 +175,76 @@ a {
     margin-top: 5%;    
 }
 
-.box-2-7 {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-end;  
+#box-1{
+    height: 20%;
+    background-color: #E2E2E2;
+    color: #000;
 }
 
-.box-2{
+#box-2{
+    height: 45%;
+    background-color: #FA0644;
+    color: #fff;
+}
+
+#box-3 {
+    height: 25%;
     background-color: #FA5300;
     color: #fff;
 }
 
-.box-3-4 {
-    background-color: #E8E8E1;
-    color: black;
-}
-
-.box-2-5 {
-    height: 40%
-}
-
-.box-5 {
-    background-color: #3275C4;
+#box-4 {
+    height: 37%;
+    background-color: #EFCE33;
     color: #fff;
 }
 
-.box-6 {
-    height: 20%;
-    background-color: #E61E26;
+#box-5 {
+    height: 16%;
+    background-color: #FA0644;
     color: #fff;
 }
 
-.box-7 {
-    height: 60%;
-    background-color: #000;
+#box-6 {
+    height: 37%;
+    background-color: #E2E2E2;
     color: #fff;
 }
 
-.box:hover {
+#box-7 {
+    height: 16%;
+    background-color: #E2E2E2;
+    color: #fff;
+}
+
+#box-8 {
+    height: 16%;
+    background-color: #FA5300;
+    color: #fff;
+}
+
+#box-9 {
+    height: 58%;
+    background-color: #EFCE33;
+    color: #fff;
+}
+
+#box-10 {
+    height: 31%;
+    background-color: #FA0644;
+    color: #fff;
+}
+
+#box-11 {
+    height: 61%;
+    background-color: #E2E2E2;
+    color: #000;
+}
+
+#box-1:hover{
     background-color: #a7a097;
 }
 
-/* 
 #box-2:hover{
     background-color: #a7a097;
 }
@@ -260,4 +267,20 @@ a {
 
 #box-7:hover{
     background-color: #a7a097;
-} */
+}
+
+#box-8:hover{
+    background-color: #a7a097;
+}
+
+#box-9:hover{
+    background-color: #a7a097;
+}
+
+#box-10:hover{
+    background-color: #a7a097;
+}
+
+#box-11:hover{
+    background-color: #a7a097;
+}

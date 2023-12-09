@@ -10,6 +10,55 @@ a {
     font-family: 'Poppins';
 }
 
+.popup{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 420px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    display: none;
+    text-align: center;
+    color: #3275C4;
+    z-index: 1000;
+}
+
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+    background: #004A98;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.popup a{
+    display: block;
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 50px;
+    border: solid 1px #3275C4;
+    color: #3275C4;
+    font-size: 20px;
+}
+
+.sag:hover {
+    color: #004A98;
+    border-color: #004A98;
+}
+
 #top-header-container {
     height: 40px;
     background-color: #EFCE33;
@@ -90,9 +139,6 @@ a {
     border-color:#fff;
     font-size: 20px;
     text-align: center;
-    /* padding-left: 10px;
-    padding-right: 10px;
-    margin: 5px; */
     border-radius: 50px;
 }
 
@@ -156,7 +202,7 @@ a {
     padding: 8px;
 }
 
-#box-1 {
+.box-1 {
     height: 90%;
     background-color: #EFCE33;
     color: black;
@@ -201,7 +247,7 @@ a {
     align-content: flex-end;  
 }
 
-#box-2{
+.box-2{
     background-color: #FA5300;
     color: #fff;
 }
@@ -215,43 +261,23 @@ a {
     height: 40%
 }
 
-#box-5 {
+.box-5 {
     background-color: #3275C4;
     color: #fff;
 }
 
-#box-6 {
+.box-6 {
     height: 20%;
     background-color: #E61E26;
     color: #fff;
 }
 
-#box-7 {
+.box-7 {
     height: 60%;
     background-color: #000;
     color: #fff;
 }
 
-#box-2:hover{
-    background-color: #a7a097;
-}
-
-#box-3:hover{
-    background-color: #a7a097;
-}
-
-#box-4:hover{
-    background-color: #a7a097;
-}
-
-#box-5:hover{
-    background-color: #a7a097;
-}
-
-#box-6:hover{
-    background-color: #a7a097;
-}
-
-#box-7:hover{
+.box-2-7:hover {
     background-color: #a7a097;
 }
