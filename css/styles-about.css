@@ -10,16 +10,42 @@ a {
     font-family: 'Poppins';
 }
 
+/* header for logo & main page navigation */
+
 #top-header-container {
+    display: flex;
     height: 40px;
     background-color: #EFCE33;
 }
 
-#home {
-    text-align: right;
-    color: #000;
-    margin-right: 5px;
+.top-header-small-container:hover .home{
+    color:#E61E26;
 }
+
+.top-header-small-container:hover .mascot{
+    border:solid 2px #E61E26;
+}
+
+.home {
+    margin: 0;
+    margin-left: 80px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.mascot {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 1%;
+    border: solid 2px #EFCE33;
+}
+
+.mascot-image {
+    height: 50px;
+}
+
+/**/
 
 #banner-image {
     height: 100vh;
@@ -172,20 +198,8 @@ a {
     font-size: small;
 }
 
-.mascot {
-    position: absolute;
-    background-color: #fff;
-    border-radius: 100%;
-    padding: 1%;
-    border: solid 2px #EFCE33;
-}
-
 #mascot-above-box {
     margin-left: 5.8%;
-}
-
-.mascot-image {
-    height: 50px;
 }
 
 #outside-box-text {

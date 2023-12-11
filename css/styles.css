@@ -10,6 +10,8 @@ a {
     font-family: 'Poppins';
 }
 
+/* popup */
+
 .popup{
     background-color: rgba(255, 255, 255, 0.9);
     width: 420px;
@@ -42,7 +44,7 @@ a {
 
 .popup a{
     display: block;
-    width: 160px;
+    width: 300px;
     height: 30px;
     line-height: 30px;
     position: relative;
@@ -54,21 +56,52 @@ a {
     font-size: 20px;
 }
 
-.sag:hover {
+#close-guest {
+    height: 60px;
+    line-height: 60px;
+}
+
+.saag:hover {
     color: #004A98;
     border-color: #004A98;
 }
 
+/* header for logo & main page navigation */
+
 #top-header-container {
+    display: flex;
     height: 40px;
     background-color: #EFCE33;
 }
 
-#home {
-    text-align: right;
-    color: #000;
-    margin-right: 5px;
+.top-header-small-container:hover .home{
+    color:#E61E26;
 }
+
+.top-header-small-container:hover .mascot{
+    border:solid 2px #E61E26;
+}
+
+.home {
+    margin: 0;
+    margin-left: 80px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.mascot {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 1%;
+    border: solid 2px #EFCE33;
+}
+
+.mascot-image {
+    height: 50px;
+}
+
+/* banner */
 
 #banner-image {
     height: 100vh;
@@ -106,46 +139,6 @@ a {
 #resource-hub {
     margin-top: 0%;
     font-size: 40px;
-}
-
-#header-and-question-container {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-#header-question {
-    color: #fff;
-    height: 30px;
-    text-align: center;
-}
-
-#header-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
-    height: 40px;
-    line-height: 0px;
-    align-items: center;
-}
-
-.header-text {
-    color: #fff;
-    text-decoration: none;
-     font-family: 'Poppins';   /* can't find TT backwards*/
-    height: 30px;
-    line-height: 30px;
-    width: 160px;
-    border: solid 1px;
-    border-color:#fff;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 50px;
-}
-
-.header-text:hover {
-    color: #EFCE33;
-    border-color: #EFCE33;
-    text-decoration: none;
 }
 
 #info {
@@ -215,22 +208,6 @@ a {
 
 #box-1-text-2 {
     font-size: small;
-}
-
-.mascot {
-    position: absolute;
-    background-color: #fff;
-    border-radius: 100%;
-    padding: 1%;
-    border: solid 2px #EFCE33;
-}
-
-#mascot-above-box {
-    margin-left: 5.8%;
-}
-
-.mascot-image {
-    height: 50px;
 }
 
 #outside-box-text {
