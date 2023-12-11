@@ -2,9 +2,10 @@
 
 //gotta load the student resources data
 function grabStudentOpportunitiesData(onSuccess, onFailure) {
-    fetch('photos/post-secondary-dev/placeholder.jpg')
+    fetch('./data/post_secondary_dev.json')
     .then(resp => {
       if (resp.status === 200) {
+        //console.log(resp.text());
         const data = resp.json();
         return data;
       } else {

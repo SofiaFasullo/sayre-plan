@@ -1,215 +1,276 @@
-[
-    {
-      "Program_Name": "CHOP Career Path ",
-      "About": "The CHOP Career Path Program is a supported employment program for individuals with disabilities and/or chronic illnesses. Services take place in Children�s Hospital of Philadelphia (CHOP). To be considered for the program, a referral to the PA Office of Vocational Rehabilitation or NJ Division of Vocational Rehabilitation Services is needed. You can be referred by your medical team, your social worker, your school or another agency.",
-      "Program Provides": "Vocational Readiness Assessment\nVocational counseling and career planning and mapping\nInterview skills/resume writing\nInternship placement for skills training\nJob-seeking strategies and techniques\nCorrespondence with community agencies, schools and potential employers\nCommunication with medical team regarding specific recommendations or accommodations related to employment goals",
-      "Program Eligibility": "Chronic illness and/or disability. Some examples are: learning disability, intellectual disability, ADHD, sickle cell disease, epilepsy, autism spectrum disorder, cerebral palsy and traumatic brain injury\nDesire to work in the community\nAppropriate social skills to learn how to integrate into a community setting \nBasic communication skills/strategies\nBasic reading skills\nIndependent self-care skills (restroom use, self-care, feeding)\nAble to access transportation to and from CHOP or placement site (funding for transportation can be provided)\nCan work unsupervised for up to four hours, without one-on-one supervision\nAble to commit to a regular weekly schedule, up to 20 hours\nMedically stable and has updated immunizations\nAble pass a drug screen, criminal background check and child abuse clearance",
-      "Other Considerations": "* Full program participation is dependent on completion of a Vocational Readiness Assessment and approval by the Office of Vocational Rehabilitation or the Division of Vocational Rehabilitation Services. In addition, in order to participate in the full program, you must have some form of health insurance.",
-      "Program_Link": "https://www.chop.edu/centers-programs/career-path",
-      "Program_Subject_Tags": "other",
-      "Program_CB_Tags": "career",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+
+{
+  "type": "FeatureCollection",
+  "name": "post_secondary_dev",
+  "features": [
+
+    { 
+      "type": "Feature",
+      "properties": {
+        "Program_Name": "CHOP Career Path ",
+        "About": "The CHOP Career Path Program is a supported employment program for individuals with disabilities and/or chronic illnesses. Services take place in Childrens Hospital of Philadelphia (CHOP). To be considered for the program, a referral to the PA Office of Vocational Rehabilitation or NJ Division of Vocational Rehabilitation Services is needed. You can be referred by your medical team, your social worker, your school or another agency.",
+        "Program Provides": "Vocational Readiness Assessment\nVocational counseling and career planning and mapping\nInterview skills/resume writing\nInternship placement for skills training\nJob-seeking strategies and techniques\nCorrespondence with community agencies, schools and potential employers\nCommunication with medical team regarding specific recommendations or accommodations related to employment goals",
+        "Program Eligibility": "Chronic illness and/or disability. Some examples are: learning disability, intellectual disability, ADHD, sickle cell disease, epilepsy, autism spectrum disorder, cerebral palsy and traumatic brain injury\nDesire to work in the community\nAppropriate social skills to learn how to integrate into a community setting \nBasic communication skills/strategies\nBasic reading skills\nIndependent self-care skills (restroom use, self-care, feeding)\nAble to access transportation to and from CHOP or placement site (funding for transportation can be provided)\nCan work unsupervised for up to four hours, without one-on-one supervision\nAble to commit to a regular weekly schedule, up to 20 hours\nMedically stable and has updated immunizations\nAble pass a drug screen, criminal background check and child abuse clearance",
+        "Other Considerations": "* Full program participation is dependent on completion of a Vocational Readiness Assessment and approval by the Office of Vocational Rehabilitation or the Division of Vocational Rehabilitation Services. In addition, in order to participate in the full program, you must have some form of health insurance.",
+        "Program_Link": "https://www.chop.edu/centers-programs/career-path",
+        "Program_Subject_Tags": "other",
+        "Program_CB_Tags": "career",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Community Integrated Services",
-      "About": "Job-placement focused. Supported Employment is an evidence-based practice of helping people with disabilities succeed in the work environment. CIS works with each jobseeker individually to set them up for employment success.",
-      "Program Provides": "CIS works with hundreds of students and �opportunity youth� to explore careers, develop job skills, and make meaningful community connections as they transition seamlessly from school to work. Includes:\nPre-Employment Trasition Services\nIEP Services",
-      "Program Eligibility": "Ages 18-24, must be receiving Social Sucrity disibility benefits",
-      "Other Considerations": "Career Exploration Activities\nWork-based learning opportunities\nJob Shadowing\nInternships\nPaid Employment\nResume Development\nJob Interview Prep\nTravel Training\nBenefits Planning",
-      "Program_Link": "https://cisworks.org/",
-      "Program_Subject_Tags": "other",
-      "Program_CB_Tags": "career",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature",
+      "properties": {
+        "Program_Name": "Community Integrated Services",
+        "About": "Job-placement focused. Supported Employment is an evidence-based practice of helping people with disabilities succeed in the work environment. CIS works with each jobseeker individually to set them up for employment success.",
+        "Program Provides": "CIS works with hundreds of students and opportunity youth to explore careers, develop job skills, and make meaningful community connections as they transition seamlessly from school to work. Includes:\nPre-Employment Trasition Services\nIEP Services",
+        "Program Eligibility": "Ages 18-24, must be receiving Social Sucrity disibility benefits",
+        "Other Considerations": "Career Exploration Activities\nWork-based learning opportunities\nJob Shadowing\nInternships\nPaid Employment\nResume Development\nJob Interview Prep\nTravel Training\nBenefits Planning",
+        "Program_Link": "https://cisworks.org/",
+        "Program_Subject_Tags": "other",
+        "Program_CB_Tags": "career",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Lasko Scholars",
-      "About": "The Lasko Scholars Program provides comprehensive academic counseling for Philadelphia based students approaching their senior year of high school.",
-      "Program Provides": "Best practices for completing applications, writing essays, and finding the best college\nAssistance with understanding and applying for FAFSA and state financial aid\nCollege resources, career assessments, and scholarship opportunities\nOngoing academic support, including ten hours of optional group SAT prep",
-      "Program Eligibility": "Must be an upcoming high school senior\nMust be bound for a 4-year college or university",
-      "Other Considerations": "Free for accepted students",
-      "Program_Link": "https://www.jevshumanservices.org/program/jevs-lasko-scholars-program/",
-      "Program_Subject_Tags": "college-prep",
-      "Program_CB_Tags": "skills",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Lasko Scholars",
+        "About": "The Lasko Scholars Program provides comprehensive academic counseling for Philadelphia based students approaching their senior year of high school.",
+        "Program Provides": "Best practices for completing applications, writing essays, and finding the best college\nAssistance with understanding and applying for FAFSA and state financial aid\nCollege resources, career assessments, and scholarship opportunities\nOngoing academic support, including ten hours of optional group SAT prep",
+        "Program Eligibility": "Must be an upcoming high school senior\nMust be bound for a 4-year college or university",
+        "Other Considerations": "Free for accepted students",
+        "Program_Link": "https://www.jevshumanservices.org/program/jevs-lasko-scholars-program/",
+        "Program_Subject_Tags": "college-prep",
+        "Program_CB_Tags": "skills",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Parks & Rec SummerWorkReady",
-      "About": "",
-      "Program Provides": "Jr. WorkReady Program (Ages 14-18):\nWork at recreation centers & playgrounds\nPaid $11/hour\nJuly-August employment\n20 hours/week of work\nSr. WorkReady Program (Ages 19-24)\nWork at recreation centers, playstreets, or with special initiatives\n Paid $13/hour\n July-August Employment\n 35 hours/week of work",
-      "Program Eligibility": "Use this online tool (https://www.phila.gov/parks-rec-finder/#/locations) to find a location where you�d like to work. Contact the supervisor. This person would be the leader at a recreation or environmental center, or the director at an older adult center.\nRequirements:\n(1) PA State ID (driver's license/permit or non-driver ID).\n(2) Social Security card.\n(3) Work permit or application for work permit (ages 14-17).\n(4) Selective Service number or print-out (for any 18-year-old males).\n Work with Parks & Rec to complete criminal and child abuse background clearances. You may need to complete an FBI fingerprint process.",
-      "Other Considerations": "",
-      "Program_Link": "https://www.phila.gov/programs/parks-rec-summer-youth-employment-program/",
-      "Program_Subject_Tags": "college-prep",
-      "Program_CB_Tags": "job",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Parks & Rec SummerWorkReady",
+        "About": "",
+        "Program Provides": "Jr. WorkReady Program (Ages 14-18):\nWork at recreation centers & playgrounds\nPaid $11/hour\nJuly-August employment\n20 hours/week of work\nSr. WorkReady Program (Ages 19-24)\nWork at recreation centers, playstreets, or with special initiatives\n Paid $13/hour\n July-August Employment\n 35 hours/week of work",
+        "Program Eligibility": "Use this online tool (https://www.phila.gov/parks-rec-finder/#/locations) to find a location where you would like to work. Contact the supervisor. This person would be the leader at a recreation or environmental center, or the director at an older adult center.\nRequirements:\n(1) PA State ID (drivers license/permit or non-driver ID).\n(2) Social Security card.\n(3) Work permit or application for work permit (ages 14-17).\n(4) Selective Service number or print-out (for any 18-year-old males).\n Work with Parks & Rec to complete criminal and child abuse background clearances. You may need to complete an FBI fingerprint process.",
+        "Other Considerations": "",
+        "Program_Link": "https://www.phila.gov/programs/parks-rec-summer-youth-employment-program/",
+        "Program_Subject_Tags": "college-prep",
+        "Program_CB_Tags": "job",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Petroleum Equipment Maintenance Technician",
-      "About": "The Petroleum Equipment Maintenance Technician apprenticeship provides paid on-the-job training for working with energy, fuel, electrical, and Point of Sale (POS) systems. Participants learn the fundamentals of servicing, repairing, maintaining, installing, and troubleshooting petroleum equipment issues. ",
-      "Program Provides": "Gain in-demand skillsets and career training while earning a paycheck \nWork with mentors and instructors who are also experienced professionals  \nWork in full time capacity with industry recognized employers",
-      "Program Eligibility": "Participants must be 18 or older with a valid driver�s license and a high school diploma or equivalent.",
-      "Other Considerations": "This program is free for eligible participants.",
-      "Program_Link": "https://www.jevshumanservices.org/program/jevs-petroleum-equipment-maintenance-technician/",
-      "Program_Subject_Tags": "facilities-utilities",
-      "Program_CB_Tags": "job",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Petroleum Equipment Maintenance Technician",
+        "About": "The Petroleum Equipment Maintenance Technician apprenticeship provides paid on-the-job training for working with energy, fuel, electrical, and Point of Sale (POS) systems. Participants learn the fundamentals of servicing, repairing, maintaining, installing, and troubleshooting petroleum equipment issues. ",
+        "Program Provides": "Gain in-demand skillsets and career training while earning a paycheck \nWork with mentors and instructors who are also experienced professionals  \nWork in full time capacity with industry recognized employers",
+        "Program Eligibility": "Participants must be 18 or older with a valid drivers license and a high school diploma or equivalent.",
+        "Other Considerations": "This program is free for eligible participants.",
+        "Program_Link": "https://www.jevshumanservices.org/program/jevs-petroleum-equipment-maintenance-technician/",
+        "Program_Subject_Tags": "facilities-utilities",
+        "Program_CB_Tags": "job",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Orleans Technical College",
-      "About": "Hands-on career training and career preparation for entry-level positions in: Air Conditioning, Refrigeration and Heating; Plumbing and Heating; Building Maintenance; Residential and Commercial Electricity; and Carpentry",
-      "Program Provides": "Full-time day classes and part-time evening classes\nJob placement assistance\nTraining in use of equipment, machines, and technology\nPersonal support including advising, tutoring, and referrals to appropriate resources for assistance with barriers to completion\nR�sum� and job interview preparation\nContinuing job search service as a resource to help graduates with job replacement and advancement as needed\nCustomized training for businesses",
-      "Program Eligibility": "Must have a high school diploma or GED and meet minimum score requirements on admissions assessment tests in reading and math.",
-      "Other Considerations": "Tuition/book, consumable supply, and equipment fees Financial aid available for those who qualify",
-      "Program_Link": "https://www.jevshumanservices.org/program/orleans-tech-building-trades/",
-      "Program_Subject_Tags": "facilities-utilities",
-      "Program_CB_Tags": "skills",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Orleans Technical College",
+        "About": "Hands-on career training and career preparation for entry-level positions in: Air Conditioning, Refrigeration and Heating; Plumbing and Heating; Building Maintenance; Residential and Commercial Electricity; and Carpentry",
+        "Program Provides": "Full-time day classes and part-time evening classes\nJob placement assistance\nTraining in use of equipment, machines, and technology\nPersonal support including advising, tutoring, and referrals to appropriate resources for assistance with barriers to completion\nResume and job interview preparation\nContinuing job search service as a resource to help graduates with job replacement and advancement as needed\nCustomized training for businesses",
+        "Program Eligibility": "Must have a high school diploma or GED and meet minimum score requirements on admissions assessment tests in reading and math.",
+        "Other Considerations": "Tuition/book, consumable supply, and equipment fees Financial aid available for those who qualify",
+        "Program_Link": "https://www.jevshumanservices.org/program/orleans-tech-building-trades/",
+        "Program_Subject_Tags": "facilities-utilities",
+        "Program_CB_Tags": "skills",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Jevs IT Pre-Apprenticeship",
-      "About": "The IT Pre-Apprenticeship program in Philadelphia is a 21-week training opportunity for young adults aged 18-24 who have an interest in IT and office technology.",
-      "Program Provides": "In this program, they have the chance to earn CompTIA+ and Microsoft Office certifications, which teach them skills in PC troubleshooting, configuring Windows OS, supporting networks, and mastering office essentials. This program also offers support to enhance math skills, write resumes, and prepare for interviews. Participants get monthly SEPTA passes for attending regularly, and they earn rewards as they achieve industry-recognized credentials. After completing the program, graduates can pursue careers as PC Customer Support Specialists, Help Desk Technicians, Tier 1 IT Support Specialists, and work in customer service. The program consists of a one-week orientation followed by a 16-week training phase, which concludes with an internship involving hands-on, paid work experience with JEVS IT employers.",
-      "Program Eligibility": "Must be 18-24 years old and living in Philadelphia\nHave a high school diploma or GED\nPossess a 9th grade or higher reading level and an 8th grade or higher math level\nHave an interest in IT and office technology\nIndividuals with children, experience in the foster care system, or an English as a Second Language (ESL) background are encouraged to apply.\nOpen to individuals who are unemployed or underemployed and seeking a career path. ",
-      "Other Considerations": "Work Ready is free for eligible participants.",
-      "Program_Link": "https://www.jevshumanservices.org/program/it-pre-apprenticeship/",
-      "Program_Subject_Tags": "it-tech",
-      "Program_CB_Tags": "skills",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Jevs IT Pre-Apprenticeship",
+        "About": "The IT Pre-Apprenticeship program in Philadelphia is a 21-week training opportunity for young adults aged 18-24 who have an interest in IT and office technology.",
+        "Program Provides": "In this program, they have the chance to earn CompTIA+ and Microsoft Office certifications, which teach them skills in PC troubleshooting, configuring Windows OS, supporting networks, and mastering office essentials. This program also offers support to enhance math skills, write resumes, and prepare for interviews. Participants get monthly SEPTA passes for attending regularly, and they earn rewards as they achieve industry-recognized credentials. After completing the program, graduates can pursue careers as PC Customer Support Specialists, Help Desk Technicians, Tier 1 IT Support Specialists, and work in customer service. The program consists of a one-week orientation followed by a 16-week training phase, which concludes with an internship involving hands-on, paid work experience with JEVS IT employers.",
+        "Program Eligibility": "Must be 18-24 years old and living in Philadelphia\nHave a high school diploma or GED\nPossess a 9th grade or higher reading level and an 8th grade or higher math level\nHave an interest in IT and office technology\nIndividuals with children, experience in the foster care system, or an English as a Second Language (ESL) background are encouraged to apply.\nOpen to individuals who are unemployed or underemployed and seeking a career path. ",
+        "Other Considerations": "Work Ready is free for eligible participants.",
+        "Program_Link": "https://www.jevshumanservices.org/program/it-pre-apprenticeship/",
+        "Program_Subject_Tags": "it-tech",
+        "Program_CB_Tags": "skills",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "YearUp Business Fundamentals",
-      "About": "Business Fundamentals program covers a wide range of critical areas and is designed to be your gateway to a dynamic career filled with possibilities. Learn the art of business from experts who�ve walked the path to success. Inclusive of customer service, data analysis, leadership, and finance, we�re here to equip you with the skills, knowledge, and confidence you need to thrive in today�s business landscape. It�s not just a program; it�s your springboard to an exciting future.",
-      "Program Provides": "Through Year Up�s business skills training, you will:\nNavigate Business Dynamics: Work seamlessly within a team, facilitating, supporting, and leading when necessary.\nUnderstand Business Structures: Identify organizational functions, structures, and hierarchies.\nExcel in Customer Interaction: Use effective inquiry techniques to solve customer requests.\nAnalyze Data Like a Pro: Interpret data using advanced tools and software.\nEnhance Essential Skills: Communicate professionally, participate in meetings, and navigate challenging situations.\nMaster Common Tools: Utilize management, editing, and conference tools.\n\nYear Up�s business training opens doors to exciting career opportunities, including roles like:\nOperations Assistant: Keep organizations running smoothly.\nHR Coordinator: Facilitate human resources processes.\nAdministrative Coordinator: Oversee and coordinate business projects.\nLoan Processing Specialist: Handle critical financial processes.",
-      "Program Eligibility": "18-29 years old\nHigh school graduate or GED; Have not obtained a Bachelor�s degree\nLow to moderate income\nU.S. citizenship, permanent resident, DACA recipient, or employment authorization card\nAvailable five days a week (M-F) for the entire duration of the program\nHighly motivated to learn new technical and professional skills",
-      "Other Considerations": "Possilbe internship locations:\nJPMorgan Chase & Co\nBank of America",
-      "Program_Link": "https://www.yearup.org/job-training-programs/philadelphia-pa/business-fundamentals",
-      "Program_Subject_Tags": "business-finance",
-      "Program_CB_Tags": "skills",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "YearUp Business Fundamentals",
+        "About": "Business Fundamentals program covers a wide range of critical areas and is designed to be your gateway to a dynamic career filled with possibilities. Learn the art of business from experts who have walked the path to success. Inclusive of customer service, data analysis, leadership, and finance, we are here to equip you with the skills, knowledge, and confidence you need to thrive in todays business landscape. It is not just a program; it is your springboard to an exciting future.",
+        "Program Provides": "Through Year Ups business skills training, you will:\nNavigate Business Dynamics: Work seamlessly within a team, facilitating, supporting, and leading when necessary.\nUnderstand Business Structures: Identify organizational functions, structures, and hierarchies.\nExcel in Customer Interaction: Use effective inquiry techniques to solve customer requests.\nAnalyze Data Like a Pro: Interpret data using advanced tools and software.\nEnhance Essential Skills: Communicate professionally, participate in meetings, and navigate challenging situations.\nMaster Common Tools: Utilize management, editing, and conference tools.\n\nYear Ups business training opens doors to exciting career opportunities, including roles like:\nOperations Assistant: Keep organizations running smoothly.\nHR Coordinator: Facilitate human resources processes.\nAdministrative Coordinator: Oversee and coordinate business projects.\nLoan Processing Specialist: Handle critical financial processes.",
+        "Program Eligibility": "18-29 years old\nHigh school graduate or GED; Have not obtained a Bachelors degree\nLow to moderate income\nU.S. citizenship, permanent resident, DACA recipient, or employment authorization card\nAvailable five days a week (M-F) for the entire duration of the program\nHighly motivated to learn new technical and professional skills",
+        "Other Considerations": "Possilbe internship locations:\nJPMorgan Chase & Co\nBank of America",
+        "Program_Link": "https://www.yearup.org/job-training-programs/philadelphia-pa/business-fundamentals",
+        "Program_Subject_Tags": "business-finance",
+        "Program_CB_Tags": "skills",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "West Philadelphia Skills Initiative (WPSI)",
-      "About": "Runs year-round job trainings for specific roles at partnering employers. WPSI can't guarantee job placements, but 95% of participants secure a position upon graduation from the program. \nWPSI provides training for jobs at large Philadelphia employers, including: SEPTA, Penn Medicine, the University of PEnnsylvania, Drexel College of Medicine, Children's Hospital of Philadelphia, and more.",
-      "Program Provides": "Builds customized training programs for available positions at partner institutions.\nOffers a professional development program (connecting employers and talent through training and job prep) and a certified skills program (incorporating external certifications/credentials into the professional development program).\nPays stipends and wages during the training programs.\nAverage hourly wage post-program is $18.20\n81% of participants retain employment for at least 12 months",
-      "Program Eligibility": "To join WPSI�s career development program, you must be unemployed, live in Philadelphia and have a high school diploma or GED. Certain programs require that you be a resident of West Philadelphia, or have additional education, work, or residential requirements. ",
-      "Other Considerations": "",
-      "Program_Link": "https://philadelphiaskills.org/",
-      "Program_Subject_Tags": "other",
-      "Program_CB_Tags": "skills",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "West Philadelphia Skills Initiative (WPSI)",
+        "About": "Runs year-round job trainings for specific roles at partnering employers. WPSI cannot guarantee job placements, but 95% of participants secure a position upon graduation from the program. \nWPSI provides training for jobs at large Philadelphia employers, including: SEPTA, Penn Medicine, the University of PEnnsylvania, Drexel College of Medicine, Childrens Hospital of Philadelphia, and more.",
+        "Program Provides": "Builds customized training programs for available positions at partner institutions.\nOffers a professional development program (connecting employers and talent through training and job prep) and a certified skills program (incorporating external certifications/credentials into the professional development program).\nPays stipends and wages during the training programs.\nAverage hourly wage post-program is $18.20\n81% of participants retain employment for at least 12 months",
+        "Program Eligibility": "To join WPSIs career development program, you must be unemployed, live in Philadelphia and have a high school diploma or GED. Certain programs require that you be a resident of West Philadelphia, or have additional education, work, or residential requirements. ",
+        "Other Considerations": "",
+        "Program_Link": "https://philadelphiaskills.org/",
+        "Program_Subject_Tags": "other",
+        "Program_CB_Tags": "skills",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Hopeworks",
-      "About": "Hopeworks provides paid technical training in high demand, tech-focused skills, such as web development, Geographic Information Systems (GIS), and data visualization.",
-      "Program Provides": "Participants gain career readiness coaching, skills in professionalism, and preparation for job interviews\nTechnical skills training in classroom setting\nPaid internships in high wage careers\nPermanent placement through Hopeworks ",
-      "Program Eligibility": "",
-      "Other Considerations": "GIS Mapping and Data Management Services: data collection & analysis, data presentation, data processing, map creation, drone services, aerial photography & videograpjy, aerial maps & 3D models\nWeb Design and Development: innovative design, wordpress website & development, website support & maintenance, technical training, user experience (UX) & accessibility audits, user interface (UI) kits\n",
-      "Program_Link": "https://hopeworks.org/",
-      "Program_Subject_Tags": "it-tech",
-      "Program_CB_Tags": "skills,job",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Hopeworks",
+        "About": "Hopeworks provides paid technical training in high demand, tech-focused skills, such as web development, Geographic Information Systems (GIS), and data visualization.",
+        "Program Provides": "Participants gain career readiness coaching, skills in professionalism, and preparation for job interviews\nTechnical skills training in classroom setting\nPaid internships in high wage careers\nPermanent placement through Hopeworks ",
+        "Program Eligibility": "",
+        "Other Considerations": "GIS Mapping and Data Management Services: data collection & analysis, data presentation, data processing, map creation, drone services, aerial photography & videograpjy, aerial maps & 3D models\nWeb Design and Development: innovative design, wordpress website & development, website support & maintenance, technical training, user experience (UX) & accessibility audits, user interface (UI) kits\n",
+        "Program_Link": "https://hopeworks.org/",
+        "Program_Subject_Tags": "it-tech",
+        "Program_CB_Tags": "skills,job",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Culinary Arts \n(OIC Philadelphia)",
-      "About": "Culary Arts program teaches professional cooking techniques, food presentation and plating, kitchen management and teamwork, and customer service and hospitality",
-      "Program Provides": "Hands-on training with real chefs\nAccess to state-of-the-art kitchen facilities\nopportunity to network with culinary experts\nIndustry-recognized certification",
-      "Program Eligibility": "",
-      "Other Considerations": "",
-      "Program_Link": "https://oicphila.org/programs/culinary-arts/",
-      "Program_Subject_Tags": "arts-culinary-music",
-      "Program_CB_Tags": "skills",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Culinary Arts \n(OIC Philadelphia)",
+        "About": "Culary Arts program teaches professional cooking techniques, food presentation and plating, kitchen management and teamwork, and customer service and hospitality",
+        "Program Provides": "Hands-on training with real chefs\nAccess to state-of-the-art kitchen facilities\nopportunity to network with culinary experts\nIndustry-recognized certification",
+        "Program Eligibility": "",
+        "Other Considerations": "",
+        "Program_Link": "https://oicphila.org/programs/culinary-arts/",
+        "Program_Subject_Tags": "arts-culinary-music",
+        "Program_CB_Tags": "skills",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Digital Media & Audio Engineering\n(OIC Philadelphia)",
-      "About": "Ditigal Media & Audio Engineering program ",
-      "Program Provides": "Audio mixing & mastering techniques\nVideo editing & production\nGraphic design fundamentals\nDevelop skills in rapidly growing industry\nCollaborate with industry experts\nCreate portfolio to showcase your talents",
-      "Program Eligibility": "",
-      "Other Considerations": "",
-      "Program_Link": "https://oicphila.org/programs/digital/",
-      "Program_Subject_Tags": "arts-culinary-music",
-      "Program_CB_Tags": "skills",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Digital Media & Audio Engineering\n(OIC Philadelphia)",
+        "About": "Ditigal Media & Audio Engineering program ",
+        "Program Provides": "Audio mixing & mastering techniques\nVideo editing & production\nGraphic design fundamentals\nDevelop skills in rapidly growing industry\nCollaborate with industry experts\nCreate portfolio to showcase your talents",
+        "Program Eligibility": "",
+        "Other Considerations": "",
+        "Program_Link": "https://oicphila.org/programs/digital/",
+        "Program_Subject_Tags": "arts-culinary-music",
+        "Program_CB_Tags": "skills",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Banking\n(OIC Philadelphia)",
-      "About": "Banking Program (BankWork$) is a vocational training program that teaches hard and soft skills needed to excel in the banking sector",
-      "Program Provides": "Banking fundamentals\nCustomer service excellence\nregulatory compliance\nProfessional communication\nOffers experienced instructors, honds-on experience, networking opportunities, employer-aligned curriculum",
-      "Program Eligibility": "",
-      "Other Considerations": "",
-      "Program_Link": "https://oicphila.org/programs/banking/",
-      "Program_Subject_Tags": "business-finance",
-      "Program_CB_Tags": "skills,career",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Banking\n(OIC Philadelphia)",
+        "About": "Banking Program (BankWork$) is a vocational training program that teaches hard and soft skills needed to excel in the banking sector",
+        "Program Provides": "Banking fundamentals\nCustomer service excellence\nregulatory compliance\nProfessional communication\nOffers experienced instructors, honds-on experience, networking opportunities, employer-aligned curriculum",
+        "Program Eligibility": "",
+        "Other Considerations": "",
+        "Program_Link": "https://oicphila.org/programs/banking/",
+        "Program_Subject_Tags": "business-finance",
+        "Program_CB_Tags": "skills,career",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Insurance Professional\n(OIC Philadelphia)",
-      "About": "Insurance Professional Program is a comprehensive training focused on claims & adjustments in insurance",
-      "Program Provides": "Teaches participants insurance claims processing and adjustments\nrisk management and policy evaluation\nentrepreneurial strategies and ethics\nclient communication and relationship management\nGain rela-world insights from industry leaders\nbuild a foundation for a thriving financial career\nhands-on learning experience\nengage with entrepreneurial learning",
-      "Program Eligibility": "",
-      "Other Considerations": "",
-      "Program_Link": "https://oicphila.org/programs/insurance/",
-      "Program_Subject_Tags": "business-finance",
-      "Program_CB_Tags": "skills",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Insurance Professional\n(OIC Philadelphia)",
+        "About": "Insurance Professional Program is a comprehensive training focused on claims & adjustments in insurance",
+        "Program Provides": "Teaches participants insurance claims processing and adjustments\nrisk management and policy evaluation\nentrepreneurial strategies and ethics\nclient communication and relationship management\nGain rela-world insights from industry leaders\nbuild a foundation for a thriving financial career\nhands-on learning experience\nengage with entrepreneurial learning",
+        "Program Eligibility": "",
+        "Other Considerations": "",
+        "Program_Link": "https://oicphila.org/programs/insurance/",
+        "Program_Subject_Tags": "business-finance",
+        "Program_CB_Tags": "skills",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Administrative Medical Assistant\n(OIC Philadelphia)",
-      "About": "Administrative Medical Skills program teaches medical office procedures & practices, and electronic health and record management",
-      "Program Provides": "expert-led training in healthcare admin\npreparation for a rewarding administrative career\nopportunities in various healthcare settings",
-      "Program Eligibility": "",
-      "Other Considerations": "",
-      "Program_Link": "https://oicphila.org/programs/administrative-medical-assistant/",
-      "Program_Subject_Tags": "healthcare",
-      "Program_CB_Tags": "skills",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Administrative Medical Assistant\n(OIC Philadelphia)",
+        "About": "Administrative Medical Skills program teaches medical office procedures & practices, and electronic health and record management",
+        "Program Provides": "expert-led training in healthcare admin\npreparation for a rewarding administrative career\nopportunities in various healthcare settings",
+        "Program Eligibility": "",
+        "Other Considerations": "",
+        "Program_Link": "https://oicphila.org/programs/administrative-medical-assistant/",
+        "Program_Subject_Tags": "healthcare",
+        "Program_CB_Tags": "skills",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Clinical Medical Assistant\n(OIC) Philadelphia",
-      "About": "Climical Medical Assistant (CMA) Program teaches patient care fundamentals and physician assistance procedures",
-      "Program Provides": "Real-world clinical experience\nStrong foundation for a variety of healthcare careers\nIn-depth understanding of healthcare practices",
-      "Program Eligibility": "",
-      "Other Considerations": "",
-      "Program_Link": "https://oicphila.org/programs/clinical-medical-assistant/",
-      "Program_Subject_Tags": "healthcare",
-      "Program_CB_Tags": "skills",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Clinical Medical Assistant\n(OIC) Philadelphia",
+        "About": "Climical Medical Assistant (CMA) Program teaches patient care fundamentals and physician assistance procedures",
+        "Program Provides": "Real-world clinical experience\nStrong foundation for a variety of healthcare careers\nIn-depth understanding of healthcare practices",
+        "Program Eligibility": "",
+        "Other Considerations": "",
+        "Program_Link": "https://oicphila.org/programs/clinical-medical-assistant/",
+        "Program_Subject_Tags": "healthcare",
+        "Program_CB_Tags": "skills",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Phlebotomy\n(OIC Philadelphia)",
-      "About": "Phlebotomy Program teaches techniques for drawing blood safely and laboratory procedures & patient care",
-      "Program Provides": "Hands-on training with experienced professionals\nOpportunities in various healthcare settings\nPreparation for certification",
-      "Program Eligibility": "",
-      "Other Considerations": "",
-      "Program_Link": "https://oicphila.org/programs/phlebotomy/",
-      "Program_Subject_Tags": "healthcare",
-      "Program_CB_Tags": "skills",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Phlebotomy\n(OIC Philadelphia)",
+        "About": "Phlebotomy Program teaches techniques for drawing blood safely and laboratory procedures & patient care",
+        "Program Provides": "Hands-on training with experienced professionals\nOpportunities in various healthcare settings\nPreparation for certification",
+        "Program Eligibility": "",
+        "Other Considerations": "",
+        "Program_Link": "https://oicphila.org/programs/phlebotomy/",
+        "Program_Subject_Tags": "healthcare",
+        "Program_CB_Tags": "skills",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Smart Energy Technical Training Program\n(OIC Philadelphia)",
-      "About": "Smart Energy Technical Training (SETT) Program offers customized training for energy-oriented careers in solar panel installation, photovoltaic design, and more to join the green energy sector",
-      "Program Provides": "Solar panel installation\nenergy efficiency techniques\ngreen technology standards\nsafety protocols",
-      "Program Eligibility": "",
-      "Other Considerations": "",
-      "Program_Link": "https://oicphila.org/programs/smart-energy/",
-      "Program_Subject_Tags": "energy-manufacturing",
-      "Program_CB_Tags": "skills,career",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+      "Program_Name": "Smart Energy Technical Training Program\n(OI C Philadelphia)",
+      "About": "Smart Energy Technical Training (SETT) Program offe rs customized training for energy-oriented careers in solar panel installation, photovoltaic design, and more to join the green energy sector",
+      "Program Provides": "Solar panel installation\nenergy efficie ncy techniques\ngreen technology standards\nsafety protocols",
+      "Program Eligibility": "",  
+      "Other Considerations": "", 
+      "Program_Link": "https://oicphila.org/programs/smart-energy/" ,
+      "Program_Subject_Tags": "energy-manufacturing", 
+      "Program_CB_Tags": "skills,career", 
+      "Program_img": "./photos/post-secondary-dev./placeholder.jpg" }
     },
-    {
-      "Program_Name": "Welding and CNC Precision Machining\n(OIC Philadelphia)",
-      "About": "Welding and CNC Precision Mapping Programs offer trainings for hands-on, prosperous careers in skilled trades",
-      "Program Provides": "CNC Operations (computer numerical control - a manufacturing method that automates the control, movement and precision of machine tools through computer software)\nWelding techniques\nBlueprint Reading\nQuality assurance\nState-of-the-art equipment\nIndustry-aligned curriculum",
-      "Program Eligibility": "",
-      "Other Considerations": "",
-      "Program_Link": "https://oicphila.org/programs/cnc-welding/",
-      "Program_Subject_Tags": "energy-manufacturing",
-      "Program_CB_Tags": "skills",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Welding and CNC Precision Machining\n(OIC Philadelphia)",
+        "About": "Welding and CNC Precision Mapping Programs offer trainings for hands-on, prosperous careers in skilled trades",
+        "Program Provides": "CNC Operations (computer numerical control - a manufacturing method that automates the control, movement and precision of machine tools through computer software)\nWelding techniques\nBlueprint Reading\nQuality assurance\nState-of-the-art equipment\nIndustry-aligned curriculum",
+        "Program Eligibility": "",
+        "Other Considerations": "",
+        "Program_Link": "https://oicphila.org/programs/cnc-welding/",
+        "Program_Subject_Tags": "energy-manufacturing",
+        "Program_CB_Tags": "skills",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "PowerCorps PHL",
+    { "type": "Feature", "properties": 
+      {"Program_Name": "PowerCorps PHL",
       "About": "An immersive, paid 4- to 24-month experience that results in connection to living wage jobs in clean energy, green infrastructure, and community-based careers",
       "Program Provides": "Participants will receive technical training in the classroom for solar panel installation, energy auditing, and electrical basics. Participants who successfully complete this program will be eligible for paid industry internships.\n$15/hour",
       "Program Eligibility": "for un- and under-employed 18-30 year-olds in Philadelphia",
@@ -217,9 +278,11 @@
       "Program_Link": "https://www.powercorpsphl.org/about",
       "Program_Subject_Tags": "energy-manufacturing",
       "Program_CB_Tags": "skills,career",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"}
     },
-    {
+    { 
+      "type": "Feature", 
+      "properties": {
       "Program_Name": "Scholarship",
       "About": "",
       "Program Provides": "",
@@ -228,39 +291,49 @@
       "Program_Link": "https://www.beautyschools.org/students/grants-scholarships/",
       "Program_Subject_Tags": "cosmetology",
       "Program_CB_Tags": "scholarship",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"}
     },
-    {
-      "Program_Name": "Empire Beauty School",
-      "About": "Student salon/clinic to work on real clients and learn how to build your own book of business\nCosmetology, Esthetics/aesthetics, educator training, and nail technology\nCosmetology program teaches hair design, hair cutting, hair color and texture, basic skin care, and business/retail training. ",
-      "Program Provides": "Accredited by the National Accrediting Commission of Career Arts and Sciences (NACCAS)\nStuendts receive professional tools and products for use during school and beyond. Each area of the cosmetology program is supported with a complete kit, which includes mannequins, hair tools, skin, nail and makeup kit, and more\n",
-      "Program Eligibility": "Cosmetology school enrollment requires students to be at least 16 years old\nCopy of state or federal photo ID\nMust complete a career planning interview",
-      "Other Considerations": "Offers a scholarship for high school seniors interested in a career in beauty. More than 100 high school seniors will receive scholarships for the full cosmetology program.\nOther scholarships offered through Empire Beauty School: https://www.empire.edu/financial-aid/scholarships ",
-      "Program_Link": "https://www.empire.edu/cosmetology-schools/pennsylvania/philadelphia-center-city",
-      "Program_Subject_Tags": "cosmetology",
-      "Program_CB_Tags": "skills",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Empire Beauty School",
+        "About": "Student salon/clinic to work on real clients and learn how to build your own book of business\nCosmetology, Esthetics/aesthetics, educator training, and nail technology\nCosmetology program teaches hair design, hair cutting, hair color and texture, basic skin care, and business/retail training. ",
+        "Program Provides": "Accredited by the National Accrediting Commission of Career Arts and Sciences (NACCAS)\nStuendts receive professional tools and products for use during school and beyond. Each area of the cosmetology program is supported with a complete kit, which includes mannequins, hair tools, skin, nail and makeup kit, and more\n",
+        "Program Eligibility": "Cosmetology school enrollment requires students to be at least 16 years old\nCopy of state or federal photo ID\nMust complete a career planning interview",
+        "Other Considerations": "Offers a scholarship for high school seniors interested in a career in beauty. More than 100 high school seniors will receive scholarships for the full cosmetology program.\nOther scholarships offered through Empire Beauty School: https://www.empire.edu/financial-aid/scholarships ",
+        "Program_Link": "https://www.empire.edu/cosmetology-schools/pennsylvania/philadelphia-center-city",
+        "Program_Subject_Tags": "cosmetology",
+        "Program_CB_Tags": "skills",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Queen Beauty Institute",
-      "About": "Cosmetology, Esthetics, Nail technology, Teacher training, natural hair braiding",
-      "Program Provides": "Cosmetology program is a total of 1,250 hours over 53 weeks (about 14 months)\nTotal tuition & fees: $21,500",
-      "Program Eligibility": "Must be at least 16 years old, high school diploma or GED, complete a student application",
-      "Other Considerations": "",
-      "Program_Link": "https://queenbeautyinstitute.com/",
-      "Program_Subject_Tags": "cosmetology",
-      "Program_CB_Tags": "skills",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Queen Beauty Institute",
+        "About": "Cosmetology, Esthetics, Nail technology, Teacher training, natural hair braiding",
+        "Program Provides": "Cosmetology program is a total of 1,250 hours over 53 weeks (about 14 months)\nTotal tuition & fees: $21,500",
+        "Program Eligibility": "Must be at least 16 years old, high school diploma or GED, complete a student application",
+        "Other Considerations": "",
+        "Program_Link": "https://queenbeautyinstitute.com/",
+        "Program_Subject_Tags": "cosmetology",
+        "Program_CB_Tags": "skills",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     },
-    {
-      "Program_Name": "Help Desk/Desktop Support",
-      "About": "Year Up's Helpdesk/Desktop Support curriculum provides students with hands-on learning in hardware and software support. Training includes diagnosis and troubleshooting of common hardware and software problems in a personal computer, types and functions of operating systems, OS installation (physical and virtual), and an introduction to basic functions using the command line interface in Windows and Linux environments. ",
-      "Program Provides": "Computer Architecture & Systems Fundamentals\nComputer Systems Administration\nDesktop Management\nTechnical Customer Service\nYear Up�s Essential Skills Training",
-      "Program Eligibility": "18-29 years old\nHigh school graduate or GED; Have not obtained a Bachelor�s degree.\nU.S. citizenship, permanent resident, DACA recipient, or employment authorization card.Copy of state or federal photo ID\nAvailable five days a week (M-F) for the entire duration of the program.Copy of state or federal photo ID\n1-year program, free for participants.",
-      "Other Considerations": "",
-      "Program_Link": "https://www.yearup.org/job-training/helpdesk-desktop-support",
-      "Program_Subject_Tags": "it-tech",
-      "Program_CB_Tags": "skills",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+    { 
+      "type": "Feature", 
+      "properties": {
+        "Program_Name": "Help Desk/Desktop Support",
+        "About": "Year Ups Helpdesk/Desktop Support curriculum provides students with hands-on learning in hardware and software support. Training includes diagnosis and troubleshooting of common hardware and software problems in a personal computer, types and functions of operating systems, OS installation (physical and virtual), and an introduction to basic functions using the command line interface in Windows and Linux environments. ",
+        "Program Provides": "Computer Architecture & Systems Fundamentals\nComputer Systems Administration\nDesktop Management\nTechnical Customer Service\nYear Ups Essential Skills Training",
+        "Program Eligibility": "18-29 years old\nHigh school graduate or GED; Have not obtained a Bachelors degree.\nU.S. citizenship, permanent resident, DACA recipient, or employment authorization card.Copy of state or federal photo ID\nAvailable five days a week (M-F) for the entire duration of the program.Copy of state or federal photo ID\n1-year program, free for participants.",
+        "Other Considerations": "",
+        "Program_Link": "https://www.yearup.org/job-training/helpdesk-desktop-support",
+        "Program_Subject_Tags": "it-tech",
+        "Program_CB_Tags": "skills",
+        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+      }
     }
-   ]
+]
+}
