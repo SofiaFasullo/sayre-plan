@@ -1,5 +1,5 @@
 const cbs = document.querySelectorAll('.cb');
-const filters = document.querySelectorAll('.filter');
+// const filters = document.querySelectorAll('.filter');
 
 //gotta load the student resources data
 function grabStudentOpportunitiesData(onSuccess, onFailure) {
@@ -72,6 +72,7 @@ function displayAllData(programs) {
 function onDataLoad(data) {
   //displayAllData(data);
   displayAllDataOrdered(data);
+  listenToCbs(cbs,data);
 }
 
 
@@ -120,14 +121,14 @@ function showDataInOrderedList(feature,container) {
 
 function displayAllDataOrdered(programs) {
   var artsContainer = document.querySelector('#space-for-arts');
-  var businessContainer = document.querySelector('#space-for-business')
-  var cosmetologyContainer = document.querySelector('#space-for-cosmetology')
-  var collegePrepContainer = document.querySelector('#space-for-college-prep')
-  var energyContainer = document.querySelector('#space-for-energy')
-  var facilitiesContainer = document.querySelector('#space-for-facilities')
-  var healthcareContainer = document.querySelector('#space-for-healthcare')
-  var itContainer = document.querySelector('#space-for-it')
-  var otherContainer = document.querySelector('#space-for-other')
+  var businessContainer = document.querySelector('#space-for-business');
+  var cosmetologyContainer = document.querySelector('#space-for-cosmetology');
+  var collegePrepContainer = document.querySelector('#space-for-college-prep');
+  var energyContainer = document.querySelector('#space-for-energy');
+  var facilitiesContainer = document.querySelector('#space-for-facilities');
+  var healthcareContainer = document.querySelector('#space-for-healthcare');
+  var itContainer = document.querySelector('#space-for-it');
+  var otherContainer = document.querySelector('#space-for-other');
   for (const program of programs.features) {
     if (program.properties.Program_Subject_Tags.includes("arts-culinary-music")) {
       showDataInOrderedList(program,artsContainer);
@@ -158,25 +159,95 @@ function displayAllDataOrdered(programs) {
 //checkboxes stuff below
 
 function checkedBoxes(checkboxes) {
-  var cbs_checked = [];
+  var cbs_cats = [];
   for (const cb of checkboxes){
     if (cb.checked) {
-      cbs_checked.push(cb);
+      var cat = cb.value;
+      console.log(cat);
+      cbs_cats.push(cat);
+      console.log(cbs_cats);
     }
   }
-  return cbs_checked
+  return cbs_cats;
+}
+
+
+
+function afterKnowingCheckboxes(checkboxes) {
+  console.log(checkboxes)
+  return checkboxes;
+}
+
+function displayFilteredDataOrdered(programs) {
+  var artsContainer = document.querySelector('#space-for-arts');
+  var businessContainer = document.querySelector('#space-for-business')
+  var cosmetologyContainer = document.querySelector('#space-for-cosmetology')
+  var collegePrepContainer = document.querySelector('#space-for-college-prep')
+  var energyContainer = document.querySelector('#space-for-energy')
+  var facilitiesContainer = document.querySelector('#space-for-facilities')
+  var healthcareContainer = document.querySelector('#space-for-healthcare')
+  var itContainer = document.querySelector('#space-for-it')
+  var otherContainer = document.querySelector('#space-for-other')
+  artsContainer.innerHTML = "";
+  cosmetologyContainer.innerHTML = "";
+  collegePrepContainer.innerHTML = "";
+  energyContainer.innerHTML = "";
+  facilitiesContainer.innerHTML = "";
+  healthcareContainer.innerHTML = "";
+  itContainer.innerHTML = "";
+  otherContainer.innerHTML = "";
+  // for (const program of programs) {
+  //   if (program.properties.Program_Subject_Tags.includes("arts-culinary-music")) {
+  //     showDataInOrderedList(program,artsContainer);
+  //   } else if (program.properties.Program_Subject_Tags.includes("business-finance")) {
+  //     showDataInOrderedList(program,businessContainer);
+  //   } else if (program.properties.Program_Subject_Tags.includes("cosmetology")) {
+  //     showDataInOrderedList(program,cosmetologyContainer);
+  //   } else if (program.properties.Program_Subject_Tags.includes("college-prep")) {
+  //     showDataInOrderedList(program,collegePrepContainer);
+  //   } else if (program.properties.Program_Subject_Tags.includes("energy")) {
+  //     showDataInOrderedList(program,energyContainer);
+  //   } else if (program.properties.Program_Subject_Tags.includes("facilities")) {
+  //     showDataInOrderedList(program,facilitiesContainer);
+  //   } else if (program.properties.Program_Subject_Tags.includes("healthcare")) {
+  //     showDataInOrderedList(program,healthcareContainer);
+  //   } else if (program.properties.Program_Subject_Tags.includes("it-tech")) {
+  //     showDataInOrderedList(program,itContainer);
+  //   } else {
+  //     showDataInOrderedList(program,otherContainer);
+  //   }
+  // }
 }
 
 function listenToCbs(checkboxes, programs){
   var programsToShow = [];
   for (const cbs of checkboxes) {
     cbs.addEventListener('change', () => {
-      const theChecked = checkedBoxes(checkboxes);
-      console.log(theChecked);
-      return theChecked;
+      const cats_realtime= checkedBoxes(checkboxes);
+      console.log(cats_realtime);
+      for (const cat of cats_realtime){
+        for (const program of programs.features){
+          if (program.properties['Program_CB_Tags'].includes(cat)) {
+            programsToShow.push(program);
+            // console.log(programsToShow);
+
+          }
+        }
+      }
+      // programsToDisplay = {"type": "FeatureCollection",
+      // "name": "post_secondary_dev",
+      // "features": [programsToShow]}
+      console.log(programsToShow);
+      // console.log(programsToDisplay);
+      displayFilteredDataOrdered(programsToShow);
+      console.log("this happened!")
     })
   }
 }
+
+//listenToCbs(cbs,programs);
+
+
 
 // function listenToCbs(checkboxes, programs){
 //   var programsToShow = [];
