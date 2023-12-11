@@ -1,4 +1,5 @@
-
+const cbs = document.querySelectorAll('.cb');
+const filters = document.querySelectorAll('.filter');
 
 //gotta load the student resources data
 function grabStudentOpportunitiesData(onSuccess, onFailure) {
@@ -15,8 +16,6 @@ function grabStudentOpportunitiesData(onSuccess, onFailure) {
     })
     .then(onSuccess);
   }
-
-
 
 
 function showDataInList(feature) {
@@ -59,41 +58,91 @@ function showDataInList(feature) {
                 </div>
             </div>
 `
-  spaceForData.innerHTML = programProfile;
+  spaceForData.innerHTML += programProfile;
 
 }
 
-function testRun(programs) {
-  //console.log(programs.features);
+function displayAllData(programs) {
   for (const program of programs.features) {
-    const name = program.properties.Program_Name
-    if(name == "CHOP Career Path ") {
+    showDataInList(program);
+  }
+
+}
+
+function onDataLoad(data) {
+  displayAllData(data);
+}
+
+
+function displayAllDataOrdered(programs) {
+  for (const program of programs.features) {
+    if (program.properties.Program_CB_Tags == "skills") {
       showDataInList(program);
     }
   }
 
 }
 
-function onDataLoad(data) {
-  testRun(data);
+
+
+
+//checkboxes stuff below
+
+function checkedBoxes(checkboxes) {
+  var cbs_checked = [];
+  for (const cb of checkboxes){
+    if (cb.checked) {
+      cbs_checked.push(cb);
+    }
+  }
+  return cbs_checked
 }
 
-grabStudentOpportunitiesData(onDataLoad);
+function listenToCbs(checkboxes, programs){
+  var programsToShow = [];
+  for (const cbs of checkboxes) {
+    cbs.addEventListener('change', () => {
+      const theChecked = checkedBoxes(checkboxes);
+      console.log(theChecked);
+      return theChecked;
+    })
+  }
+}
 
-//show most recent data as "last updated" and "earliest data from" most recent
-// function showDataInList(feature) {
-//     var programName = `<h3>${feature.properties['Program_Name']}</h3>`
-//     var cityElectionData = `<ul>
-//         <li>'Address: '+${feature.properties['Address']}</li>
-//         <li>${feature.properties['num_elections']+' election(s) within the last month'}</li>
-//         <li>${feature.properties['tot_wins']+' election(s) won'}</li>
-//         <li>${feature.properties['perc_win']+'% elections won'}</li>
-//         <li>${feature.properties['tot_challenged']+' challenged ballot(s)'}</li>
-//         <li>${feature.properties['tot_voted']+' total voter(s) in all recent elections'}</li>
-//         <li>${feature.properties['voter_turnout']+'% voter turnout'}</li>
-//     </ul>`;
-//     dataListEl.innerHTML = cityElectionData;
-//     dataTitleEl.innerHTML = programName;
+// function listenToCbs(checkboxes, programs){
+//   var programsToShow = [];
+//   var cbs_checked = [];
+//   for (const cbs of checkboxes) {
+//     cbs.addEventListener('change', () => {
+//       if (cb.checked) {
+//         cbs_checked.push(cb);
+//       }
+//     })
 //   }
+//   if (cbs_checked[1]!=null) {
+//     for (i in cbs_checked) {
+//       for(const program in programs.features){
+//         if (program.features.Program_CB_Tags==i.id){
+//           programsToShow.push(program)
+//         }
+//       }
+//     }
+//   } else {
+//     for(const program in programs.features){
+//       if (program.features.Program_CB_Tags==i.id){
+//         programsToShow.push(program)
+//       }
+//     }
 
+//   }
+//   console.log(programsToShow);
+  
+// }
+
+
+  
+
+
+grabStudentOpportunitiesData(onDataLoad);
+//listenToCbs.cbs;
 

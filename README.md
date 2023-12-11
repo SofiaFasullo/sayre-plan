@@ -3,14 +3,10 @@ potential sayre high community connection documentation website!
 
 to do:
 
-*general
-    * get cookies to determine popup not reoccuring
+
+
 * student page
-
-
-    * create dataset: (Fran spreadsheet workforce research in background research folder)
-        - inspect dataset
-        - write code for pasting ONE piece of data
+    * Mjumbe help with filtering
         - look at Brooke's if statements
         - construct if statements
         - check and debug students page working
@@ -21,6 +17,8 @@ to do:
     * wildest dream: links to events in the calendar
     * wildest dream: search bar
     * wildest dream: a map
+    * wildest dream: a list items in data are actually represented as lists
+    * wildest dream: checkboxes are reformatted
 * admin page
     * IMPORANT GRANTS - need Roshini's content
     * cal - add  button
