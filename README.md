@@ -19,6 +19,7 @@ to do:
     * wildest dream: a map
     * wildest dream: a list items in data are actually represented as lists
     * wildest dream: checkboxes are reformatted
+    * wildest dream: get filter colors to change AS you scroll
 * admin page
     * IMPORANT GRANTS - need Roshini's content
     * cal - add  button

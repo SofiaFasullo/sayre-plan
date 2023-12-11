@@ -69,6 +69,8 @@ a {
 }
 
 .filter-text {
+    display: flex;
+    justify-content: center;
     color: #fff;
     text-decoration: none;
     height: 30px;
@@ -88,6 +90,14 @@ a {
     border-color: #EFCE33;
     text-decoration: none;
 }
+
+.filter-text:active {
+    color: #000;
+    border-color: #000;
+    text-decoration: none;
+}
+
+
 
 .filter-facilities-utilities .text {
     height: 60px;
@@ -155,12 +165,25 @@ a {
     height: 150px;
 }
 
+.anchor {
+    height: 100px;
+}
+
 .general-body-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-end;
 }
+
+.space-title {
+    color: #EFCE33;
+}
+
+/* lost here */
+/* .space-for-data {
+    scroll-margin-top:100px ; 
+} */
 
 .div {
     width: 900px;
