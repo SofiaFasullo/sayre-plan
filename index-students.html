@@ -14,48 +14,74 @@
     
 
     <main>
-        <div class="above-general-body" id="top-header-container">
-            <a  href="index-guest.html" class="header top-header-small-container">
-                <div class="mascot" id="mascot-header">
-                    <img class="mascot-image" src="./photos/mascot.png" alt="The Sayre High School Logo, a red sabre tooth lion">
+
+        <div class="above-general-body top-horizontal-container" id="top-horizontal-container">
+            <div class="above-general-body" id="top-header-container">
+                <a  href="index-guest.html" class="header top-header-small-container">
+                    <div class="mascot" id="mascot-header">
+                        <img class="mascot-image" src="./photos/mascot.png" alt="The Sayre High School Logo, a red sabre tooth lion">
+                    </div>
+                        <h2 class="text top-header-text home" id="home">SAYRE RESOURCE HUB</h2>
+                </a>
+            </div>
+
+            <div class="above-general-body search-cb-container" id="search-cb-container">
+                <div class="search-or-cb search-box">
+                    <input type="text" class="text search-bar" placeholder="Search..">
                 </div>
-                    <h2 class="text top-header-text home" id="home">SAYRE RESOURCE HUB</h2>
-            </a>
+                
+                <div class="search-or-cb cb-container">
+
+                    <label class="text cb-text"> <input type="checkbox" class="cb job" value="job">Paid Job</label>
+
+                    <label class="text cb-text"> <input type="checkbox" class="cb skills" value="skills">Free Skills Training</label>
+
+                    <label class="text cb-text"> <input type="checkbox" class="cb career" value="career">Specific Career Path Help</label>
+
+                    <label class="text cb-text"> <input type="checkbox" class="cb scholarship" value="scholarship">Scholarships</label>
+        
+                </div>
+            </div>
         </div>
+    
 
         <div class="above-general-body" id="filter-container">
-            <div class="filter top-filter filter-1" id="students-filter">
-                <h2 class="text filter-text" id="career">career readiness</h2>
+
+            <div class="filter top-filter filter-arts-culinary-music"  id="arts-culinary-music">
+                <h2 class="text filter-text">Arts, Culinary, Music</h2>
             </div>
             
-            <div class="filter filter-2" id="admin-filter">
-                <h2 class="text filter-text" id="wellness">wellness</h2>
-            </div>
-            <div class="filter filter-3" id="sports-filter">
-                <h2 class="text filter-text" id="sports">sports</h2>
-            </div>
-            <div class="filter filter-4" id="a-filter">
-                <h2 class="text filter-text" id="arts">arts</h2>
-            </div>
-            <div class="filter filter-5" id="b-filter">
-                <h2 class="text filter-text" id="arts">arts</h2>
-            </div>
-            <div class="filter filter-6" id="c-filter">
-                <h2 class="text filter-text" id="arts">arts</h2>
-            </div>
-            <div class="filter filter-7" id="d-filter">
-                <h2 class="text filter-text" id="arts">arts</h2>
-            </div>
-            <div class="filter filter-8" id="e-filter">
-                <h2 class="text filter-text" id="arts">arts</h2>
-            </div>
-            <div class="filter filter-9" id="f-filter">
-                <h2 class="text filter-text" id="arts">arts</h2>
-            </div>
-            <div class="filter filter-10" id="g-filter">
-                <h2 class="text filter-text" id="arts">arts</h2>
+            <div class="filter filter-business-finance" id="business-finance">
+                <h2 class="text filter-text">Business & Finance</h2>
             </div>
 
+            <div class="filter filter-cosmetology" id="cosmetology">
+                <h2 class="text filter-text">Cosmetology</h2>
+            </div>
+
+            <div class="filter filter-college-prep" id="college-prep">
+                <h2 class="text filter-text">College Preparation</h2>
+            </div>
+
+            <div class="filter filter-energy-manufacturing" id="energy-manufacturing">
+                <h2 class="text filter-text">Energy & Manufacturing</h2>
+            </div>
+            
+            <div class="filter filter-facilities-utilities" id="facilities-utilities">
+                <h2 class="text filter-text">Facilities Management & Utilities Services</h2>
+            </div>
+
+            <div class="filter filter-healthcare" id="healthcare">
+                <h2 class="text filter-text">Health Care</h2>
+            </div>
+
+            <div class="filter filter-it-tech" id="it-tech">
+                <h2 class="text filter-text">IT & Technology</h2>
+            </div>
+
+            <div class="filter filter-other" id="other">
+                <h2 class="text filter-text">Other Areas</h2>
+            </div>
 
         </div>
             
@@ -71,5 +97,5 @@
         
     </main>
 
-    <!-- <script type = "module" src="js/main.js"></script> -->
+    <script type = "module" src="js/students.js"></script>
 </body>

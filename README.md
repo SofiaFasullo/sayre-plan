@@ -6,9 +6,16 @@ to do:
 *general
     * get cookies to determine popup not reoccuring
 * student page
-    * create student landing page
-    * create dashboard page structure
+
+
     * create dataset: (Fran spreadsheet workforce research in background research folder)
+        - inspect dataset
+        - write code for pasting ONE piece of data
+        - look at Brooke's if statements
+        - construct if statements
+        - check and debug students page working
+        - re-hash student landing page to match
+        - code student landing page to have box already checked
     * get dataset linked to what is displayed
     * link to scholarship calendar
     * wildest dream: links to events in the calendar
@@ -24,3 +31,10 @@ to do:
     * make sure the menu is perfect
 * about us
     * storymap style sliding, all the sections
+
+
+
+subcategories: skills, career, paid job, scholarship
+
+subjects (IDs): arts-culinary-music, business-finance, cosmetology, college-prep, energy-manufacturing, facilities-utilities, healthcare, it-tech, other
+
