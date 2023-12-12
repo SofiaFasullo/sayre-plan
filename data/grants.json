@@ -1,0 +1,162 @@
+{
+  "type": "FeatureCollection",
+  "name": "grants",
+  "features": [
+    {
+        "type": "Feature",
+        "properties":{
+          "id": "1",
+          "Grant": "Renew America's Schools",
+          "About": "RENEW administered by the Department of Energy, promotes the implementation of clean energy improvements, funds infrastructure upgrades at K–12 public school facilities, prioritizing high-need school communities.",
+          "Link": "https://www.energy.gov/scep/renew-americas-schools",
+          "tags_abr": "building",
+          "Tags": "Grants for Building Improvement",
+          "Deadline": "Opens February 2024"
+        }
+    },        
+    {        
+        "type": "Feature",
+        "properties":{
+          "id": "2",
+          "Grant": "Kaboom Community Built Playspace Grants",
+          "About": "Funds to design, plan, and build a new playspace using Kaboom's signature community-build model.",
+          "Link": "https://kaboom.org/grants/community-built",
+          "tags_abr": "building",
+          "Tags": "Grants for Building Improvement",
+          "Deadline": "Ongoing"
+        }
+    },        
+    {        
+        "type": "Feature",
+        "properties":{
+          "id": "3",
+          "Grant": "The Efficient and Healthy Schools Program",
+          "About": "Provides direct technical assistance to participating K-12 schools and districts on topics related to energy efficiency, health, and resilience.",
+          "Link": "https://efficienthealthyschools.lbl.gov/technical-assistance",
+          "tags_abr": "building",
+          "Tags": "Grants for Building Improvement",
+          "Deadline": "Ongoing"
+        }
+    },        
+    {        
+        "type": "Feature",
+        "properties":{
+          "id": "4",
+          "Grant": "Garden Grant Program",
+          "About": "Through our Garden Grant program, schools and non-profit organizations turn outdoor spaces into powerful hands-on learning gardens that connect kids with food, spark their curiosity and support classroom curriculum.",
+          "Link": "https://www.wholekidsfoundation.org/programs/school-gardens-grant/",
+          "tags_abr": "building",
+          "Tags": "Grants for Building Improvement",
+          "Deadline": "Opens February 2024"
+        }
+    },        
+    {        
+        "type": "Feature",
+        "properties":{
+          "id": "5",
+          "Grant": "NHSA GroMoreGood Garden Grants",
+          "About": "Grants will supplement needs of existing garden projects, help launch new garden projects, or supplement/launch outdoor green space projects",
+          "Link": "https://nhsa.org/gromoregood-garden-grants/application/",
+          "tags_abr": "building",
+          "Tags": "Grants for Building Improvement",
+          "Deadline": "Dec-24"
+        }
+    },        
+    {        
+        "type": "Feature",
+        "properties":{
+          "id": "6",
+          "Grant": "Youth Garden Grant",
+          "About": "Supports school and youth educational garden projects that enhance the quality of life for youth and their communities.",
+          "Link": "https://kidsgardening.org/grant-opportunities/youth-garden-grant-24/",
+          "tags_abr": "building",
+          "Tags": "Grants for Building Improvement",
+          "Deadline": "Dec-24"
+        }
+    },        
+    {        
+        "type": "Feature",
+        "properties":{
+          "id": "7",
+          "Grant": "Project School Emergency Response to Violence (SERV)",
+          "About": "Provides funding to short-term education-related services for local educational agencies and institutions of higher education to help them recover from a violent or traumatic event in which the learning environment has been disrupted.",
+          "Link": "https://oese.ed.gov/offices/office-of-formula-grants/safe-supportive-schools/project-serv-school-emergency-response-to-violence/",
+          "tags_abr": "health-safety",
+          "Tags": "Grants for Health & Safety",
+          "Deadline": "Ongoing"
+        }
+    },        
+    {        
+        "type": "Feature",
+        "properties":{
+          "id": "8",
+          "Grant": "Grants for Expansion and Sustainability of the Comprehensive Community Mental Health Services for Children with Serious Emotional Disturbance",
+          "About": "Provides resources to improve the mental health outcomes for children and youth at risk for, or with, serious emotional disturbances (SED), and their families. The program aims to prepare children and youth with, or at risk of, SED for successful transition to adulthood and assumption of adult roles and responsibilities.",
+          "Link": "https://www.samhsa.gov/grants/grant-announcements/sm-23-013",
+          "tags_abr": "health-safety",
+          "Tags": "Grants for Health & Safety",
+          "Deadline": "14-Feb-24"
+        }
+    },        
+    {        
+        "type": "Feature",
+        "properties":{
+          "id": "9",
+          "Grant": "American Rescue Plan Elementary and Secondary School Emergency Relief",
+          "About": "Provides funding to deliver critical aid to schools, educators, students, and families as the country continues to recover from the COVID-19 pandemic.",
+          "Link": "https://oese.ed.gov/offices/education-stabilization-fund/elementary-secondary-school-emergency-relief-fund/",
+          "tags_abr": "health-safety",
+          "Tags": "Grants for Health & Safety",
+          "Deadline": "Ongoing"
+        }
+    },        
+    {        
+        "type": "Feature",
+        "properties":{
+          "id": "10",
+          "Grant": "Association of American Educators Foundation Classroom Grant Application",
+          "About": "Classroom grants can be used for a variety of projects and materials including, but not limited to, books, software, calculators, math manipulatives, art supplies, audio-visual equipment, and lab materials. Funds must be used within one year of the application deadline.",
+          "Link": "https://www.aaeteachers.org/index.php/classroom-grant-application",
+          "tags_abr": "equipment",
+          "Tags": "Grants for Classroom Equipment",
+          "Deadline": "1-Mar-24"
+        }
+    },        
+    {        
+        "type": "Feature",
+        "properties":{
+          "id": "11",
+          "Grant": "GSA Computers for Learning Grant",
+          "About": "Provides schools and educational nonprofit organizations the opportunity to view and request excess computer equipment that is excess to a federal agency’s needs. This equipment is available at no cost",
+          "Link": "https://computersforlearning.gov/cfl/educational-orgs",
+          "tags_abr": "equipment",
+          "Tags": "Grants for Classroom Equipment",
+          "Deadline": "Ongoing"
+        }
+    },        
+    {        
+        "type": "Feature",
+        "properties":{
+          "id": "12",
+          "Grant": "Walmart Local Community Grant",
+          "About": "Providing afterschool enrichment, tutoring or vocational training for low-income individuals and families in the local service area",
+          "Link": "https://walmart.org/how-we-give/local-community-grants",
+          "tags_abr": "equipment",
+          "Tags": "Grants for Classroom Equipment",
+          "Deadline": "15-Apr-24"
+        }
+    },        
+    {        
+        "type": "Feature",
+        "properties":{
+          "id": "13",
+          "Grant": "Dollar General Summer Literacy Grant",
+          "About": "These grants support the creation or expansion of summer reading programs.",
+          "Link": "https://www.dgliteracy.org/grant-programs/?#summer-reading",
+          "tags_abr": "ed",
+          "Tags": "Grants for Curriculum Development, Learning and Literacy",
+          "Deadline": "Jan-24"
+        }
+    }
+  ]
+}

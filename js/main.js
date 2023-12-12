@@ -5,10 +5,10 @@
 // need to learn jquery cookies to get the popup to ONLY show up the first load - or none! if I just navigate to new pages
 window.addEventListener("load", function(){
     setTimeout(
-        function open(evt){
-            document.querySelector(".popup").style.display = "block";
+        function open(){
+            document.querySelector(".popup").style.opacity = 1;
         },
-        1000 
+        1000
     )
 });
 

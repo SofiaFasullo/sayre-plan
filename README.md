@@ -19,6 +19,18 @@ to do:
     * wildest dream: checkboxes are reformatted
     * wildest dream: get filter colors to change AS you scroll
 * admin page
+
+EITHER
+- admin landing page has:
+Imprative Grants
+General Grant Assistance: application resources AND grant calendar
+Grant Opportunities: all the grant categories: 4 categories
+Other resources
+- 
+
+
+
+
     * admin landing page including side stuff
     * IMPORANT GRANTS - need Roshini's content
     * cal - add  button
