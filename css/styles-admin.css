@@ -56,13 +56,6 @@ a {
     justify-content: space-between;
 }
 
-#title-container {
-    background-color: #E61E26;
-    display: flex;
-    flex-direction: column;
-    height: 30vh;
-}
-
 #smaller-title-container {
     padding-left: 50px;
     display: flex;
@@ -76,28 +69,25 @@ a {
 }
 
 #header-container {
+    background-color: #E61E26;
     display: flex;
-    justify-content: flex-start;
-    margin-top: 10px;
-    height: 40px;
-    line-height: 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
+    align-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .header-text {
     color: #fff;
     text-decoration: none;
-     font-family: 'Poppins';   /* can't find TT backwards*/
-    height: 30px;
-    line-height: 30px;
+     font-family: 'Poppins';
     width: 200px;
     border: solid 2px;
     border-color:#fff;
     font-size: 20px;
     text-align: center;
-    /* padding-left: 10px;
-    padding-right: 10px;
-    margin: 5px; */
     border-radius: 50px;
 }
 
@@ -108,13 +98,26 @@ a {
 }
 
 .header {
-    padding-right: 50px;
-    padding-bottom: 50px;
     padding-left: 50px;
 }
 
-#info {
-    height: 50vh;
+/* 3 grants */
+
+.important-grant {
+    background: transparent;
+    justify-content: center;
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 3px red;
+    border-radius: 50px;
+    color: red;
+}
+
+.three-grants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 /* Admin page calendar*/
