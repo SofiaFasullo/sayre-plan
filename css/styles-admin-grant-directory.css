@@ -54,18 +54,55 @@ a {
     height: 50px;
 }
 
+/* headers for going to other grant pages */
+#header-container {
+    background-color: #E61E26;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* align-content: flex-end; */
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 35px;
+}
+
+.header-text {
+    color: #fff;
+    text-decoration: none;
+     font-family: 'Poppins';
+    width: 200px;
+    border: solid 2px;
+    border-color:#fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.header-text:hover {
+    color: #EFCE33;
+    border-color: #EFCE33;
+    text-decoration: none;
+}
+
+.header {
+    padding-left: 50px;
+}
+
+
 /* filters vertical pane */
 
 #filter-container {
     display: flex;
     height: 100vh;
     line-height: 0px;
-    background-color: #FA5300;
+    background-color: #E61E26;
     align-items: flex-start;
     flex-direction: column;
     width: 300px;
     align-items: center;
-    position: fixed
+    position: fixed;
+    justify-content: space-around;
 }
 
 .filter-text {
@@ -109,9 +146,9 @@ a {
 /* checkboxes horizontal pane */
 
 .search-cb-container {
-    background-color: #FA5300;
+    background-color: #E61E26;
     display: flex;
-    height: 100px;
+    height: 130px;
     width: 100%;
     position: fixed;
 }
@@ -198,7 +235,7 @@ a {
 }
 
 .div .text {
-    color: #FA5300;
+    color: #E61E26;
 }
 
 .div h3 {
