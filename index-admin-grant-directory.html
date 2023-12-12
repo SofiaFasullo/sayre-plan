@@ -1,0 +1,145 @@
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins'/>
+    <link rel="stylesheet"  href="./css/styles-admin-grant-directory.css"/>
+</head>
+<body>
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+    
+
+    <main>
+
+        <div class="above-general-body top-horizontal-container" id="top-horizontal-container">
+            <div class="above-general-body" id="top-header-container">
+                <a  href="index-guest.html" class="header top-header-small-container">
+                    <div class="mascot" id="mascot-header">
+                        <img class="mascot-image" src="./photos/mascot.png" alt="The Sayre High School Logo, a red sabre tooth lion">
+                    </div>
+                        <h2 class="text top-header-text home" id="home">SAYRE RESOURCE HUB</h2>
+                </a>
+            </div>
+
+            <div class="above-general-body search-cb-container" id="search-cb-container">
+                <div class="search-or-cb search-box">
+                    <input type="text" class="text search-bar" placeholder="Search..">
+                </div>
+                
+                <div class="search-or-cb cb-container">
+
+                    <label class="text cb-text"> <input type="checkbox" class="cb job" id="job" value="job">Paid Job</label>
+
+                    <label class="text cb-text"> <input type="checkbox" class="cb skills" id="skills" value="skills">Free Skills Training</label>
+
+                    <label class="text cb-text"> <input type="checkbox" class="cb career" id="career" value="career">Specific Career Path Help</label>
+
+                    <label class="text cb-text"> <input type="checkbox" class="cb scholarship" id="scholarship" value="scholarship">Scholarships</label>
+        
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="above-general-body" id="filter-container">
+
+            <div class="filter top-filter filter-arts-culinary-music"  id="arts-culinary-music">
+                <a href="#anchor-arts" class="text filter-text">Arts, Culinary, Music</a>
+            </div>
+            
+            <div class="filter filter-business-finance" id="business-finance">
+                <a href="#anchor-business" class="text filter-text">Business & Finance</a>
+            </div>
+
+            <div class="filter filter-cosmetology" id="cosmetology">
+                <a href="#anchor-cosmetology" class="text filter-text">Cosmetology</a>
+            </div>
+
+            <div class="filter filter-college-prep" id="college-prep">
+                <a href="#anchor-college-prep" class="text filter-text">College Preparation</a>
+            </div>
+
+            <div class="filter filter-energy-manufacturing" id="energy-manufacturing">
+                <a href="#anchor-energy" class="text filter-text">Energy & Manufacturing</a>
+            </div>
+            
+            <div class="filter filter-facilities-utilities" id="facilities-utilities">
+                <a href="#anchor-facilities" class="text filter-text">Facilities Management & Utilities Services</a>
+            </div>
+
+            <div class="filter filter-healthcare" id="healthcare">
+                <a href="#anchor-healthcare" class="text filter-text">Health Care</a>
+            </div>
+
+            <div class="filter filter-it-tech" id="it-tech">
+                <a href="#anchor-it" class="text filter-text">IT & Technology</a>
+            </div>
+
+            <div class="filter filter-other" id="other">
+                <a href="#anchor-other" class="text filter-text">Other Areas</a>
+            </div>
+
+        </div>
+            
+        
+        <div class="above-general-body" id="info">
+            <!--basically a div to create space-->
+        </div>
+
+        <div class="general-body general-body-container" id="general-body-container">
+            <div class="anchor" id="anchor-arts"></div>
+            <div class="space-for-data space-arts" id="space-for-arts">
+                <h1 class="text space-title" id="space-title-arts">Arts, Culinary, Music</h1>
+            </div>
+
+            <div class="anchor" id="anchor-business"></div>
+            <div class="space-for-data space-business" id="space-for-business">
+                <h1 class="text space-title" id="space-title-business">Business & Finance</h1>
+            </div>
+
+            <div class="anchor" id="anchor-cosmetology"></div>
+            <div class="space-for-data space-cosmetology" id="space-for-cosmetology">
+                <h1 class="text space-title" id="space-title-cosmetology">Cosmetology</h1>
+            </div>
+
+            <div class="anchor" id="anchor-college-prep"></div>
+            <div class="space-for-data space-college-prep" id="space-for-college-prep">
+                <h1 class="text space-title" id="space-title-college-prep">College Preparation</h1>
+            </div>
+
+            <div class="anchor" id="anchor-energy"></div>
+            <div class="space-for-data space-energy" id="space-for-energy">
+                <h1 class="text space-title" id="space-title-energy">Energy & Manufacturing</h1>
+            </div>
+
+            <div class="anchor" id="anchor-facilities"></div>
+            <div class="space-for-data space-facilities" id="space-for-facilities">
+                <h1 class="text space-title" id="space-title-facilities">Facilities & Utilities Maintenance</h1>
+            </div>
+
+            <div class="anchor" id="anchor-healthcare"></div>
+            <div class="space-for-data space-healthcare" id="space-for-healthcare">
+                <h1 class="text space-title" id="space-title-healthcare">Healthcare</h1>
+            </div>
+
+            <div class="anchor" id="anchor-it"></div>
+            <div class="space-for-data space-it" id="space-for-it">
+                <h1 class="text space-title" id="space-title-it">IT & Technology</h1>
+            </div>
+
+            <div class="anchor" id="anchor-other"></div>
+            <div class="space-for-data space-other" id="space-for-other">
+                <h1 class="text space-title" id="space-title-other">Other Areas</h1>
+            </div>
+            
+
+        </div>
+        
+    </main>
+
+    <script type = "module" src="js/admin-grant-directory.js"></script>
+</body>

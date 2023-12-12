@@ -1,0 +1,246 @@
+body {
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text{
+    font-family: 'Poppins';
+}
+
+.top-horizontal-container {
+    height: 50px;
+    position: fixed;
+    z-index: 1000;
+}
+
+/* header for logo & main page navigation */
+
+#top-header-container {
+    display: flex;
+    height: 40px;
+    background-color: #EFCE33;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.top-header-small-container:hover .home{
+    color:#E61E26;
+}
+
+.top-header-small-container:hover .mascot{
+    border:solid 2px #E61E26;
+}
+
+.home {
+    margin: 0;
+    margin-left: 80px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.mascot {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 7px;
+    border: solid 2px #EFCE33;
+}
+
+.mascot-image {
+    height: 50px;
+}
+
+/* filters vertical pane */
+
+#filter-container {
+    display: flex;
+    height: 100vh;
+    line-height: 0px;
+    background-color: #FA5300;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    position: fixed
+}
+
+.filter-text {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    width: 270px;
+    border: solid 2px;
+    border-color:#fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.filter-text:hover {
+    color: #EFCE33;
+    border-color: #EFCE33;
+    text-decoration: none;
+}
+
+.filter-text:active {
+    color: #000;
+    border-color: #000;
+    text-decoration: none;
+}
+
+
+
+.filter-facilities-utilities .text {
+    height: 60px;
+}
+
+.top-filter {
+    margin-top: 95px;
+}
+
+/* checkboxes horizontal pane */
+
+.search-cb-container {
+    background-color: #FA5300;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+
+.search-or-cb {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.search-box {
+    margin-left: 80px;
+}
+
+.search-bar {
+    border: solid #fff;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    background: #E61E26;
+    padding-left: 10px;
+}
+
+.search-bar::placeholder {
+    color:#fff ;
+}
+
+.cb-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+/* mjumbe I need help */
+/* .cb-container input[type="checkbox"]::before {
+    background-color: #000;
+} */
+
+.cb-text {
+    color: #fff;
+}
+
+
+/* data */
+
+#info {
+    height: 150px;
+}
+
+.anchor {
+    height: 100px;
+}
+
+.general-body-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.space-title {
+    color: #EFCE33;
+}
+
+/* lost here */
+/* .space-for-data {
+    scroll-margin-top:100px ; 
+} */
+
+.div {
+    width: 900px;
+    background-color: #fff;
+    margin-bottom: 100px;
+    margin-right:15px;
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24); */
+}
+
+.div:hover{
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.4);
+}
+
+.div .text {
+    color: #FA5300;
+}
+
+.div h3 {
+    font-size: smaller;
+}
+
+.content {
+    padding-left: 30px;
+    padding-right:30px;
+    padding-bottom: 30px;
+}
+
+.below-program-name{
+    display: flex;
+    flex-direction: row;
+}
+
+.data-title {
+    margin-bottom: 5px;
+}
+
+.data-subtitle {
+    margin-top: 0px;
+    margin-bottom:30px;
+}
+
+.data-image {
+    height: 200px;
+    margin-right: 15px;
+}
+
+.data-link {
+    margin-top: 15px;
+    display: flex;
+    width: 150px;
+    padding-top: 10px;
+    border: solid 1px;
+    border-radius: 50px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+
+

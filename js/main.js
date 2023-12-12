@@ -8,7 +8,7 @@ window.addEventListener("load", function(){
         function open(){
             document.querySelector(".popup").style.opacity = 1;
         },
-        1000
+        500
     )
 });
 
