@@ -7,10 +7,7 @@ potential sayre high community connection documentation website!
 to do:
 
 MOST IMPERATIVE:
-- content is all included or a message tells that it's coming soon or it is removed
-    - all of admin, quick links, student wellness, contact
 - navigation tools work or are removed
-- all links correct, titles consistent
 - about us photos or a link to the sayre site
 
 * content that I don't have yet:
@@ -20,7 +17,6 @@ MOST IMPERATIVE:
 
 * landing aka guest page 
     * quick links page needs to be created and linked to
-    * contact page needs to be created and linked to
 
 * student page
     * resources in directory are formatted so no awkward margins, etc
@@ -37,13 +33,9 @@ MOST IMPERATIVE:
     * wildest dream: checkboxes are reformatted to circles
     
 *grant page
-    * design all needed content: important grants, links to application help
     * grant directory - have photos OR just make blank
-    * absorb top-3-grants into application help & directory
     * look through data
-    * make calendar JUST grant cal
-    * tags/filters for imperative grants AND for admin/teacher focus
-    * header bar names need to be uniform
+    * tags/filters for imperative grants
     * header bar needs to be differentiated from anchors for grant types
 
 * about us 
@@ -51,7 +43,7 @@ MOST IMPERATIVE:
    * personally stylize whole thing 
 
 * general, throughout site
-    * change "admin resources" to "grant resources"
+    * should I have a quick links section?
     * remove links that go nowhere or have text that says 'this feature will be coming soon!'
     * both landscape and portrait styling is consistent
         * for directories, static pages have nothing lying overtop them

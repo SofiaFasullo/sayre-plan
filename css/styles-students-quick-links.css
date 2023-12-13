@@ -1,0 +1,204 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text{
+    font-family: 'Poppins';
+}
+
+/* header for logo & main page navigation */
+
+#top-header-container {
+    display: flex;
+    height: 40px;
+    background-color: #EFCE33;
+}
+
+.top-header-small-container:hover .home{
+    color:#E61E26;
+}
+
+.top-header-small-container:hover .mascot{
+    border:solid 2px #E61E26;
+}
+
+.home {
+    margin: 0;
+    margin-left: 80px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.mascot {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 7px;
+    border: solid 2px #EFCE33;
+}
+
+.mascot-image {
+    height: 50px;
+}
+
+/* Student page boxes */
+
+#general-body-container {
+    display: flex;
+    justify-content: center;
+}
+
+#boxes-container {
+    height: 90vh;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box-text {
+    margin: 0%;
+}
+
+.box-quarter {
+    height: 90vh;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.box {
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.box-text {
+    font-size: medium;
+    padding: 8px;
+}
+
+#mascot-above-box {
+    margin-left: 5.8%;
+    display: flex;
+    align-self: flex-end;
+}
+
+#outside-box-text {
+    padding-left: 23%;
+    position: absolute;
+    font-size: medium;
+    margin-bottom: 0%;
+    margin-top: 5%;    
+}
+
+.box-1{
+    height: 20%;
+    background-color: #E2E2E2;
+    color: #000;
+}
+
+.box-2{
+    height: 30%;
+    background-color: #FA0644;
+    color: #fff;
+}
+
+.box-3 {
+    height: 20%;
+    background-color: #FA5300;
+    color: #fff;
+}
+
+.box-4 {
+    height: 27%;
+    background-color: #EFCE33;
+    color: #fff;
+}
+
+.box-5 {
+    height: 16%;
+    background-color: #FA0644;
+    color: #fff;
+}
+
+.box-6 {
+    height: 27%;
+    background-color: #E2E2E2;
+    color: #000;
+}
+
+.box-7 {
+    height: 18%;
+    background-color: #E2E2E2;
+    color: #000;
+}
+
+.box-8 {
+    height: 16%;
+    background-color: #FA5300;
+    color: #fff;
+}
+
+.box-9 {
+    height: 38%;
+    background-color: #EFCE33;
+    color: #fff;
+}
+
+.box-10 {
+    height: 29%;
+    background-color: #EFCE33;
+    color: #fff;
+}
+
+.box-11 {
+    height: 18%;
+    background-color: #FA0644;
+    color: #fff;
+}
+
+.box-12 {
+    height: 20%;
+    background-color: #FA5300;
+    color: #fff;
+}
+
+.box-13 {
+    height: 23%;
+    background-color: #004A98;
+    color: #fff;
+}
+
+.box-14 {
+    height: 18%;
+    background-color: #004A98;
+    color: #fff;
+}
+
+.box-15 {
+    height: 20%;
+    background-color: #004A98;
+    color: #fff;
+}
+
+.box-16 {
+    height: 20%;
+    background-color: #004A98;
+    color: #fff;
+}
+
+.box:hover{
+    background-color: #a7a097;
+    color:#000
+}
