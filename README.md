@@ -4,16 +4,12 @@ https://sofiafasullo.github.io/sayre-plan/
 
 potential sayre high community connection documentation website!
 
-to do:
-
-MOST IMPERATIVE:
-- navigation tools work or are removed
-- about us photos or a link to the sayre site
 
 * content that I don't have yet:
     * paragraph about important grants
-    * student wellness
+    * student wellness built out
     * other admin resources that aren't grants???
+    * photos for grants
 
 * landing aka guest page 
     * quick links page needs to be created and linked to

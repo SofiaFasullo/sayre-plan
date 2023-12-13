@@ -108,12 +108,13 @@ a {
     margin-top: 95px;
 }
 
-/* checkboxes horizontal pane */
+/* checkboxes horizontal pane - not showng if doesn't work*/
 
 .search-cb-container {
     background-color: #FA5300;
     display: flex;
-    height: 100px;
+    /* height: 100px; */
+    height: 0px;
     width: 100%;
     position: fixed;
 }
