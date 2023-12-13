@@ -15,7 +15,7 @@
         "Program_Link": "https://www.chop.edu/centers-programs/career-path",
         "Program_Subject_Tags": "other",
         "Program_CB_Tags": "career",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/chop.png"
       }
     },
     { 
@@ -29,7 +29,7 @@
         "Program_Link": "https://cisworks.org/",
         "Program_Subject_Tags": "other",
         "Program_CB_Tags": "career",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/cis.png"
       }
     },
     { 
@@ -43,7 +43,7 @@
         "Program_Link": "https://www.jevshumanservices.org/program/jevs-lasko-scholars-program/",
         "Program_Subject_Tags": "college-prep",
         "Program_CB_Tags": "skills",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/lasko.png"
       }
     },
     { 
@@ -57,7 +57,7 @@
         "Program_Link": "https://www.phila.gov/programs/parks-rec-summer-youth-employment-program/",
         "Program_Subject_Tags": "college-prep",
         "Program_CB_Tags": "job",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/parks-and-rec.png"
       }
     },
     { 
@@ -71,7 +71,7 @@
         "Program_Link": "https://www.jevshumanservices.org/program/jevs-petroleum-equipment-maintenance-technician/",
         "Program_Subject_Tags": "facilities-utilities",
         "Program_CB_Tags": "job",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/petroleum.png"
       }
     },
     { 
@@ -85,7 +85,7 @@
         "Program_Link": "https://www.jevshumanservices.org/program/orleans-tech-building-trades/",
         "Program_Subject_Tags": "facilities-utilities",
         "Program_CB_Tags": "skills",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/orleans.png"
       }
     },
     { 
@@ -99,7 +99,7 @@
         "Program_Link": "https://www.jevshumanservices.org/program/it-pre-apprenticeship/",
         "Program_Subject_Tags": "it-tech",
         "Program_CB_Tags": "skills",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/IT.png"
       }
     },
     { 
@@ -113,7 +113,7 @@
         "Program_Link": "https://www.yearup.org/job-training-programs/philadelphia-pa/business-fundamentals",
         "Program_Subject_Tags": "business-finance",
         "Program_CB_Tags": "skills",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/yearup.png"
       }
     },
     { 
@@ -127,7 +127,7 @@
         "Program_Link": "https://philadelphiaskills.org/",
         "Program_Subject_Tags": "other",
         "Program_CB_Tags": "skills",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/wpsi.png"
       }
     },
     { 
@@ -141,7 +141,7 @@
         "Program_Link": "https://hopeworks.org/",
         "Program_Subject_Tags": "it-tech",
         "Program_CB_Tags": "skills,job",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/hopeworks.png"
       }
     },
     { 
@@ -155,7 +155,7 @@
         "Program_Link": "https://oicphila.org/programs/culinary-arts/",
         "Program_Subject_Tags": "arts-culinary-music",
         "Program_CB_Tags": "skills",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/culinary_arts.png"
       }
     },
     { 
@@ -169,7 +169,7 @@
         "Program_Link": "https://oicphila.org/programs/digital/",
         "Program_Subject_Tags": "arts-culinary-music",
         "Program_CB_Tags": "skills",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/digital-media.png"
       }
     },
     { 
@@ -183,7 +183,7 @@
         "Program_Link": "https://oicphila.org/programs/banking/",
         "Program_Subject_Tags": "business-finance",
         "Program_CB_Tags": "skills,career",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/bankworks.png"
       }
     },
     { 
@@ -197,7 +197,7 @@
         "Program_Link": "https://oicphila.org/programs/insurance/",
         "Program_Subject_Tags": "business-finance",
         "Program_CB_Tags": "skills",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/insurance.png"
       }
     },
     { 
@@ -211,7 +211,7 @@
         "Program_Link": "https://oicphila.org/programs/administrative-medical-assistant/",
         "Program_Subject_Tags": "healthcare",
         "Program_CB_Tags": "skills",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/medical.png"
       }
     },
     { 
@@ -225,7 +225,7 @@
         "Program_Link": "https://oicphila.org/programs/clinical-medical-assistant/",
         "Program_Subject_Tags": "healthcare",
         "Program_CB_Tags": "skills",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/medical1.png"
       }
     },
     { 
@@ -239,7 +239,7 @@
         "Program_Link": "https://oicphila.org/programs/phlebotomy/",
         "Program_Subject_Tags": "healthcare",
         "Program_CB_Tags": "skills",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/phlebotomy.png"
       }
     },
     { 
@@ -253,7 +253,7 @@
       "Program_Link": "https://oicphila.org/programs/smart-energy/" ,
       "Program_Subject_Tags": "energy-manufacturing", 
       "Program_CB_Tags": "skills,career", 
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg" }
+      "Program_img": "./photos/post-secondary-dev/smart-energy.png" }
     },
     { 
       "type": "Feature", 
@@ -266,7 +266,7 @@
         "Program_Link": "https://oicphila.org/programs/cnc-welding/",
         "Program_Subject_Tags": "energy-manufacturing",
         "Program_CB_Tags": "skills",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/welding.png"
       }
     },
     { "type": "Feature", "properties": 
@@ -278,7 +278,7 @@
       "Program_Link": "https://www.powercorpsphl.org/about",
       "Program_Subject_Tags": "energy-manufacturing",
       "Program_CB_Tags": "skills,career",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"}
+      "Program_img": "./photos/post-secondary-dev/powercorps.png"}
     },
     { 
       "type": "Feature", 
@@ -291,7 +291,7 @@
       "Program_Link": "https://www.beautyschools.org/students/grants-scholarships/",
       "Program_Subject_Tags": "cosmetology",
       "Program_CB_Tags": "scholarship",
-      "Program_img": "./photos/post-secondary-dev./placeholder.jpg"}
+      "Program_img": "./photos/post-secondary-dev/cosmetology.png"}
     },
     { 
       "type": "Feature", 
@@ -304,7 +304,7 @@
         "Program_Link": "https://www.empire.edu/cosmetology-schools/pennsylvania/philadelphia-center-city",
         "Program_Subject_Tags": "cosmetology",
         "Program_CB_Tags": "skills",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/cosmetology1.png"
       }
     },
     { 
@@ -318,7 +318,7 @@
         "Program_Link": "https://queenbeautyinstitute.com/",
         "Program_Subject_Tags": "cosmetology",
         "Program_CB_Tags": "skills",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/queen_beauty.png"
       }
     },
     { 
@@ -332,7 +332,7 @@
         "Program_Link": "https://www.yearup.org/job-training/helpdesk-desktop-support",
         "Program_Subject_Tags": "it-tech",
         "Program_CB_Tags": "skills",
-        "Program_img": "./photos/post-secondary-dev./placeholder.jpg"
+        "Program_img": "./photos/post-secondary-dev/yearup.png"
       }
     }
 ]

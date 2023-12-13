@@ -1,5 +1,6 @@
 body {
     background-color: #ffffff;
+    margin: 0;
 }
 
 a {
@@ -46,7 +47,7 @@ a {
     font-size: 20px;
 }
 
-#close-guest {
+#close-about {
     height: 60px;
 }
 
