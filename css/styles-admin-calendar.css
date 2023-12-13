@@ -98,6 +98,12 @@ a {
     text-decoration: none;
 }
 
+#right-page {
+    color: #EFCE33;
+    border-color: #EFCE33;
+    text-decoration: none;
+}
+
 .header {
     padding-left: 50px;
 }

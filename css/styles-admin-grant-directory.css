@@ -66,6 +66,7 @@ a {
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 35px;
+    width: 100%;
 }
 
 .header-text {
@@ -81,6 +82,12 @@ a {
 }
 
 .header-text:hover {
+    color: #EFCE33;
+    border-color: #EFCE33;
+    text-decoration: none;
+}
+
+#right-page {
     color: #EFCE33;
     border-color: #EFCE33;
     text-decoration: none;
@@ -149,6 +156,7 @@ a {
 .search-cb-container {
     background-color: #E61E26;
     display: flex;
+    justify-content: center;
     height: 130px;
     width: 100%;
     position: fixed;
