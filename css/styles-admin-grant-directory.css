@@ -21,11 +21,17 @@ a {
 
 #top-header-container {
     display: flex;
-    height: 40px;
+    height: 6vh;
     background-color: #EFCE33;
     width: 100%;
     position: fixed;
     z-index: 1000;
+}
+
+.top-header-small-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .top-header-small-container:hover .home{
@@ -38,21 +44,28 @@ a {
 
 .home {
     margin: 0;
-    margin-left: 80px;
+    margin-left: 3vh;
     color: #fff;
-    line-height: 40px;
+    line-height: 6vh;
+    font-size: 3vh;
+}
+
+.mascot-container{
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .mascot {
-    position: absolute;
     background-color: #fff;
     border-radius: 100%;
-    padding: 7px;
+    padding: 15%;
     border: solid 2px #EFCE33;
 }
 
 .mascot-image {
-    height: 50px;
+    height: 6vh;
 }
 
 /* headers for going to other grant pages */
